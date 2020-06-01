@@ -1,3 +1,3 @@
-jaredsuasin.com
+BLM Resources
 ====
 
