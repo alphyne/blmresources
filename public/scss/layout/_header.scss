@@ -1,22 +1,6 @@
 .header-container{
 
-  .navbar-container {
-    display: block;
-  }
 
-  margin: 0 17rem 1rem 17rem;
-
-  a {
-    text-decoration: none;
-  }
-
-  h1 {
-      font-family: 'nexa_boldregular';
-      /*font-weight: 600;*/
-      font-size: 3rem;
-      //line-height: 4rem;
-      color: white;
-  }
 }
 
 .logo-container {
@@ -129,69 +113,25 @@
 }
 
 @media(max-width: 1600px){
-  .header-container{
 
-    margin: 0 9rem 1rem 9rem;
-  }
 }
 
 @media(max-width: 1280px){
 
-  .header-container{
-
-    margin: 0 6rem 1rem 6rem;
-  }
-
-  .nav-item {
-    a {
-      font-size: 1.1rem;
-    }
-  }
-
+ 
 }
 
 @media(max-width: 1024px){
 
-  #initials {
-    display: block;
-  }
 
-  #full-name {
-    display: none;
-  }
-
-  .nav-container {
-    height: 8rem;
-  }
 }
 
 @media(max-width: 840px){
-  .header-container {
-    margin: 0 3rem 1rem 3rem;
-  }
 
-  .nav-item {
-    a {
-      font-size: 1rem;
-    }
-  }
-
-  .strike {
-    span:before, span:after {
-      top: 125%;
-    }
-  }
 
 }
 
 @media(max-width: 600px){
-  .header-container {
-    margin: 0 1rem 1rem 1rem;
-  }
 
-  .nav-item {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
 }
 

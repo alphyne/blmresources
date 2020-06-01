@@ -1,135 +1,41 @@
-.landing-container{
-
-    height: 100vh;
-
-    .landing-name {
-        font-family: 'nexa_boldregular';
-        font-size: 4.2rem;
-        //letter-spacing: 2px;
-        line-height: 4rem;
-        
-
-        a {
-            color: white;
-            text-decoration: none;
-            /*border-bottom: 2px solid #313131;*/
-        }
-
-        /*a:hover {
-            color: #876abb;
-            border-bottom-color: white;
-            transition-duration: 0.5s;
-
-        }*/
-    }
-
+.person-container {
+    height: 2rem;
+    width: 18rem;
+    color: white;
 }
 
-.landing-greeting {
-    margin-top: 22vh;
-    margin-bottom: 1rem;
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    //justify-content: center;
+}
+
+.section-container {
+    margin-bottom: 4rem;
 
     h2 {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 400;
-        font-size: 1.4rem; 
+        margin: 2rem 0;
     }
 }
 
-.landing-description {
-    margin-left: 38vw;
-    margin-top: 2rem;
+.resource-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
-    p {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 400;
-        font-size: 1.4rem;
-        //letter-spacing: 2px;
-        line-height: 1.7;
-    }
+    .resource-section {
+        width: 50%;
+        //height: 3rem;
+        //margin-right: 1rem;
 
-    a {
-        text-decoration: none;
-        color: white;
-        border-bottom: 0.0625rem solid white;
-        padding-bottom: 0.25rem;
-    }
-
-    a:hover {
-        border-bottom: none;
-    }
-
-}
-
-.landing-footer {
-    margin-top: 10rem;
-}
-
-.pull-container {
-    margin: 6rem 0;
-    display: grid;
-    grid-template-columns: 1.6rem auto;
-    grid-column-gap: 0.75rem;
-
-    .pull-icon-container {
-        padding-top: 0.4rem;
-    }
-    .pull-icon {
-        height: 1.6rem;
-        width: 1.6rem;
-    }
-
-    .pull-text {
-        line-height: 2rem;
-
-        p {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 400;
-            font-size: 1.2rem;
-            line-height: 2rem;
-        }
-
-        a {
-            text-decoration: none;
-            color: white;
-            border-bottom: 0.0625rem solid white;
-            padding-bottom: 0.25rem;
-        }
-        a:hover {
-            border-bottom: none;
+        h4 {
+            margin-right: 2rem;
         }
     }
 }
 
-@media(max-width: 1600px){
-    .landing-container{
 
-        .landing-name {
-            font-size: 3.6rem;
-        }
-
-        h2, p {
-            font-size: 1.2rem;
-        }
-    }
-
-    .landing-description {
-        margin-left: 40vw;
-    }
-
-    .pull-container {
-        grid-template-columns: 1.5rem auto;
-        .pull-icon {
-            height: 1.5rem;
-            width: 1.5rem;
-        }
-        .pull-text {
-            p {
-                font-size: 1.1rem;
-            }
-        }
-    }
-}
 
 @media(max-width: 1280px){
     .landing-container {
