@@ -65,8 +65,10 @@ body {
     line-height: 4.5rem; } }
 
 @media (max-width: 840px) {
+  .page-container h1 {
+    padding-right: 0; }
   .page-container h2 {
-    font-size: 2rem; } }
+    font-size: 2.5rem; } }
 
 @media (max-width: 600px) {
   .page-container {
@@ -694,12 +696,14 @@ hr {
     background-color: #FCE21C;
     padding: 1rem; }
     .landing-background h1 {
-      font-size: 5rem; }
+      font-size: 3rem; }
     .landing-background h2 {
       font-size: 1.5rem;
       margin-top: 4rem; }
     .landing-background h3 {
-      font-size: 2rem; } }
+      font-size: 2rem; }
+  .arrow-container {
+    margin-top: 2rem; } }
 
 /* Base styling */
 @font-face {
