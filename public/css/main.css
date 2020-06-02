@@ -679,7 +679,7 @@ hr {
   animation-name: moveUpDown;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  transition-timing-function: cubic-bezier(0.15, 0.7, 0.91, 0.65); }
+  transition-timing-function: cubic-bezier(0, 0.86, 0.75, 0.67); }
 
 @media (max-width: 840px) {
   .resource-grid .resource-section {
@@ -688,11 +688,13 @@ hr {
   hr {
     margin: 2rem 0; }
   .landing-background h1 {
-    margin-left: 10%; } }
+    margin-left: 10%; }
+  .section-container h2 {
+    margin-right: 0; } }
 
 @media (max-width: 600px) {
   .landing-background {
-    height: 98vh;
+    height: 95vh;
     background-color: #FCE21C;
     padding: 1rem; }
     .landing-background h1 {

@@ -134,7 +134,7 @@ hr {
     animation-name: moveUpDown;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    transition-timing-function: cubic-bezier(.15,.7,.91,.65);
+    transition-timing-function: cubic-bezier(0,.86,.75,.67);
 }
 
 
@@ -167,11 +167,18 @@ hr {
         }
     }
 
+    .section-container {
+        h2 {
+            margin-right: 0;
+        }
+
+    }
+
 }
 
 @media(max-width: 600px){
     .landing-background {
-        height: 98vh;
+        height: 95vh;
         background-color: #FCE21C;
         padding: 1rem;
 
