@@ -17,7 +17,8 @@ body {
   .page-container h2 {
     font-weight: 500;
     font-size: 4.5rem;
-    line-height: 4rem; }
+    line-height: 5rem;
+    padding-right: 2rem; }
   .page-container h3 {
     font-weight: 200;
     font-size: 1.6rem;
@@ -58,11 +59,18 @@ body {
   .page-container {
     margin: 0 10%; } }
 
+@media (max-width: 1024px) {
+  .page-container h2 {
+    font-size: 4rem;
+    line-height: 4.5rem; } }
+
+@media (max-width: 840px) {
+  .page-container h2 {
+    font-size: 2.5rem; } }
+
 @media (max-width: 600px) {
   .page-container {
-    margin: 0 1rem; }
-    .page-container h2 {
-      font-size: 3rem; } }
+    margin: 0 1rem; } }
 
 .footer-icon {
   height: 1.5rem;
@@ -83,6 +91,8 @@ body {
       text-decoration: none; }
     .footer-container .footer-section .footer-text {
       font-size: 2rem; }
+  .footer-container .footer-right {
+    text-align: right; }
   .footer-container .hashtag-container {
     display: flex;
     flex-direction: row;
@@ -97,7 +107,9 @@ body {
     display: block; }
     .footer-container .footer-section {
       margin-top: 2rem;
-      width: 100%; } }
+      width: 100%; }
+    .footer-container .footer-right {
+      text-align: left; } }
 
 /* Strikethrough hover pen by tsimenis on Codepen */
 .strike span, .strike-name span {
@@ -639,12 +651,42 @@ hr {
     .resource-grid .resource-section h4 {
       margin-right: 2rem; }
 
+.social-target {
+  text-decoration: none; }
+
+.social-icon {
+  height: 1.5rem;
+  fill: white;
+  text-decoration: none; }
+
+.arrow-container {
+  text-align: center;
+  margin-top: 4rem; }
+
+@-webkit-keyframes moveUpDown {
+  0% {
+    transform: translateY(0.5rem); }
+  50% {
+    transform: translateY(-1rem); }
+  100% {
+    transform: translateY(0.5rem); } }
+
+.arrow-icon {
+  height: 6rem;
+  fill: black;
+  animation-name: moveUpDown;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transition-timing-function: cubic-bezier(0.15, 0.7, 0.91, 0.65); }
+
 @media (max-width: 840px) {
   .resource-grid .resource-section {
     width: 100%;
     margin-bottom: 2rem; }
   hr {
-    margin: 2rem 0; } }
+    margin: 2rem 0; }
+  .landing-background h1 {
+    margin-left: 10%; } }
 
 @media (max-width: 600px) {
   .landing-background {
@@ -654,14 +696,10 @@ hr {
     .landing-background h1 {
       font-size: 5rem; }
     .landing-background h2 {
-      font-size: 3rem;
+      font-size: 1.5rem;
       margin-top: 4rem; }
     .landing-background h3 {
       font-size: 2rem; } }
-
-@media (max-width: 400px) {
-  h1 {
-    margin-left: 0; } }
 
 /* Base styling */
 @font-face {

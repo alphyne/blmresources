@@ -28,6 +28,10 @@
         }
     }
 
+    .footer-right {
+        text-align: right;
+    }
+
     .hashtag-container {
         display: flex;
         flex-direction: row;
@@ -58,6 +62,10 @@
         .footer-section {
             margin-top: 2rem;
             width: 100%;
+        }
+
+        .footer-right {
+            text-align: left;
         }
     }
 

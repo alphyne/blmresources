@@ -63,6 +63,10 @@
 		{
 			"block-two": [
 				{
+					"title": "List of Bail Funds for Protestors Across the Country",
+					"url": "https://bailfunds.github.io/"
+				},
+				{
 					"title": "The Bail Project",
 					"url": "https://secure.givelively.org/donate/the-bail-project"
 				},
@@ -83,7 +87,7 @@
 					"url": "https://minnesotafreedomfund.org/donate"
 				},
 				{
-					"title": "37 Community Bail Funds",
+					"title": "Split a donation across 40 community bail funds",
 					"url": "https://secure.actblue.com/donate/bail_funds_george_floyd"
 				}
 			]
@@ -175,19 +179,148 @@
 				{
 					"title": "How Studying Privilege Systems Can Strengthen Compassion (18:26)",
 					"url": "https://youtu.be/e-BY9UEewHw",
-					"one": true,
 					"source": true,
 					"organization": "Peggy McIntosh at TEDxTimerlaneSchools"
 				},
 				{
 					"title": "Black Feminism & the Movement for Black Lives: Barbara Smith, Reina Gossett, Charlene Carruthers (50:48)",
 					"url": "https://www.youtube.com/watch?v=eV3nnFheQRo&feature=youtu.be",
-					"one": true,
 					"source": true,
 					"organization": "National LGBTQ Task Force"
 				}
 			]
 
+		}
+	],
+	"filmandtv": [
+		{
+			"block-one": [
+				{
+					"title": "13th",
+					"url": "https://www.netflix.com/title/80091741",
+					"source": true,
+					"organization": "Ava DuVernay - Netflix"
+				},
+				{
+					"title": "Fruitvale Station",
+					"url": "https://tubitv.com/movies/524403/fruitvale_station?utm_source=google-feed&tracking=google-feed",
+					"source": true,
+					"organization": "Ryan Coogler - Free on Tubi"
+				},
+				{
+					"title": "I Am Not Your Negro (James Baldwin documentary)",
+					"url": "https://www.amazon.com/I-Am-Not-Your-Negro/dp/B01MR52U7T",
+					"source": true,
+					"organization": "Raoul Peck - Available to rent or on Kanopy"
+				},
+				{
+					"title": "Selma",
+					"url": "http://www.avaduvernay.com/selma",
+					"source": true,
+					"organization": "Ava DuVernay - Available to rent"
+				},
+				{
+					"title": "When They See Us",
+					"url": "https://www.netflix.com/title/80200549",
+					"source": true,
+					"organization": "Ava DuVernay - Netflix"
+				},
+				{
+					"title": "The Get Down",
+					"url": "https://www.netflix.com/title/80025601",
+					"source": true,
+					"organization": "Netflix Originals"
+				}
+			]
+		}
+	],
+	"books": [
+		{
+			"block-one": [
+				{
+					"title": "I Know Why the Caged Bird Sings",
+					"url": "https://www.penguinrandomhouse.com/books/3924/i-know-why-the-caged-bird-sings-by-maya-angelou/",
+					"source": true,
+					"organization": "Maya Angelous"
+				},
+				{
+					"title": "So You Want to Talk About Race",
+					"url": "https://www.sealpress.com/titles/ijeoma-oluo/so-you-want-to-talk-about-race/9781580056779/",
+					"source": true,
+					"organization": "Ijeoma Oluo"
+				},
+				{
+					"title": "The Fire Next Time",
+					"url": "https://www.penguinrandomhouse.com/books/7753/the-fire-next-time-by-james-baldwin/9780679744726/teachers-guide/",
+					"source": true,
+					"organization": "James Baldwin"
+				},
+				{
+					"title": "The New Jim Crow: Mass Incarceration in the Age of Colorblindness",
+					"url": "https://newjimcrow.com/",
+					"source": true,
+					"organization": "Michelle Alexander"
+				}
+			]
+		}
+	],
+	"podcasts": [
+		{
+			"block-one": [
+				{
+					"title": "About Race",
+					"url": "https://www.showaboutrace.com/"
+				},
+				{
+					"title": "Code Switch",
+					"url": "https://www.npr.org/sections/codeswitch/",
+					"source": true,
+					"organization": "NPR"
+				}
+			]
+		}
+	],
+	"organizations": [
+		{
+			"block-one": [
+				{
+					"title": "Black Lives Matter",
+					"url-twitter": "https://twitter.com/Blklivesmatter",
+					"url-instagram": "https://www.instagram.com/blklivesmatter/?hl=en",
+					"url-facebook": "https://www.facebook.com/BlackLivesMatter"
+				},
+				{
+					"title": "NAACP",
+					"url-twitter": "https://twitter.com/NAACP",
+					"url-instagram": "https://www.instagram.com/naacp/",
+					"url-facebook": "https://www.facebook.com/naacp"
+				},
+				{
+					"title": "Black Women's Blueprint",
+					"url-twitter": "https://twitter.com/blackwomensbp",
+					"url-instagram": "https://www.instagram.com/blackwomensblueprint/",
+					"url-facebook": "https://www.facebook.com/blackwomens.BWBNY/"
+				},
+				{
+					"title": "The Conscious Kid",
+					"url-twitter": "https://twitter.com/consciouskidlib",
+					"url-instagram": "https://www.instagram.com/theconsciouskid/",
+					"url-facebook": "https://www.facebook.com/theconsciouskid"
+				},
+				{
+					"title": "The Leadership Conference on Civil & Human Rights",
+					"url-twitter": "http://twitter.com/civilrightsorg",
+					"url-instagram": "https://www.instagram.com/civilrightsorg/",
+					"url-facebook": "https://www.facebook.com/civilandhumanrights"
+				},
+				{
+					"title": "United We Dream",
+					"url-twitter": "https://twitter.com/unitedwedream",
+					"url-instagram": "http://instagram.com/unitedwedream",
+					"url-facebook": "https://www.facebook.com/UnitedWeDream/"
+				}
+
+			]
 		}
 	],
 	"people": [
