@@ -99,43 +99,6 @@ body {
       margin-top: 2rem;
       width: 100%; } }
 
-.logo-container {
-  margin-top: 2.5rem;
-  position: absolute; }
-  .logo-container img {
-    height: 3rem; }
-
-.name-container {
-  margin-top: 2.5rem;
-  position: absolute; }
-
-#initials {
-  display: none; }
-
-/* Nav bar */
-.nav-container {
-  height: 8rem; }
-
-.nav-item {
-  float: right;
-  padding-top: 3rem;
-  padding-left: 1.25rem;
-  padding-right: 1rem; }
-  .nav-item a {
-    display: block;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    line-height: 1.7;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: white;
-    text-decoration: none; }
-  .nav-item .active {
-    border-bottom: 0.125rem solid white; }
-
 /* Strikethrough hover pen by tsimenis on Codepen */
 .strike span, .strike-name span {
   position: relative;
@@ -606,9 +569,22 @@ body {
       .section .image-row-container .image-container .image-right {
         padding-bottom: 1rem; } }
 
+.landing-container {
+  color: black; }
+
+.landing-background {
+  height: 100vh;
+  background-color: #FCE21C;
+  padding: 4rem; }
+  .landing-background h1 {
+    font-family: "Darker Grotesque", sans-serif;
+    font-weight: 600;
+    font-size: 8rem; }
+
 .quote-container {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 4rem; }
   .quote-container .quote {
     font-family: 'Montaga', serif;
     max-width: 800px; }
@@ -657,6 +633,12 @@ hr {
     margin-bottom: 2rem; }
   hr {
     margin: 2rem 0; } }
+
+@media (max-width: 600px) {
+  .landing-background {
+    height: 98vh;
+    background-color: #FCE21C;
+    padding: 1rem; } }
 
 /* Base styling */
 @font-face {

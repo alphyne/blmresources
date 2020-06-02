@@ -3,61 +3,6 @@
 
 }
 
-.logo-container {
-  margin-top: 2.5rem;
-  position: absolute;
-
-  img {
-    height: 3rem;
-  }
-}
-
-.name-container {
-	margin-top: 2.5rem;
-  position: absolute;
-    
-}
-
-#initials {
-  display: none;
-}
-
-
-/* Nav bar */
-.nav-container {
-  height: 8rem;  
-}
-
-.nav-item {
-    float: right;
-    padding-top: 3rem;
-    padding-left: 1.25rem;
-    padding-right: 1rem;
-
-    a {
-        display: block;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 300;
-        line-height: 1.7;
-        color: white;
-        text-align: center;
-
-        text-decoration: none;
-
-
-        font-size: 1.2rem;
-        text-decoration: none;
-
-        color: white;
-        text-decoration: none;
-        //border-bottom: 0.0625rem solid white;
-        //padding-bottom: 0.25rem;
-    }
-
-    .active {
-        border-bottom: 0.125rem solid white;
-    }
-}
 
 
 

@@ -1,6 +1,26 @@
+.landing-container {
+    color: black;
+   
+}
+
+.landing-background {
+    height: 100vh;
+    background-color: #FCE21C;
+    padding: 4rem;
+
+    h1 {
+        font-family: "Darker Grotesque", sans-serif;
+        font-weight: 600;
+        font-size: 8rem;
+    }
+  }
+
 .quote-container {
     display: flex;
     justify-content: center;
+
+    margin-top: 4rem;
+
     .quote {
         font-family: 'Montaga', serif;
         //padding: 4rem 4rem;
@@ -95,7 +115,11 @@ hr {
 }
 
 @media(max-width: 600px){
-
+    .landing-background {
+        height: 98vh;
+        background-color: #FCE21C;
+        padding: 1rem;
+    }
 }
 
 @media(max-width: 400px){
