@@ -1,6 +1,35 @@
+.quote-container {
+    display: flex;
+    justify-content: center;
+    .quote {
+        font-family: 'Montaga', serif;
+        //padding: 4rem 4rem;
+        max-width: 800px;
+        h1 {
+            font-size: 1.6rem;
+            line-height: 3rem;
+            margin-bottom: 1rem;
+    
+        }
+
+}
+.quote-source {
+    right: 0;
+    text-align: right;
+    h2 {
+        font-size: 1.4rem;
+    }
+}
+
+}
+
+hr {
+    margin: 4rem 0;
+}
+
 .person-container {
     height: 2rem;
-    width: 18rem;
+    width: 17rem;
     color: white;
 }
 
@@ -12,10 +41,14 @@
 }
 
 .section-container {
-    margin-bottom: 4rem;
 
     h2 {
         margin: 2rem 0;
+        margin-right: 4rem;
+    }
+
+    h3 {
+        margin-bottom: 1rem;
     }
 }
 
@@ -23,6 +56,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+
 
     .resource-section {
         width: 50%;
@@ -37,100 +71,39 @@
 
 
 
+
 @media(max-width: 1280px){
-    .landing-container {
 
-        .landing-name {
-            a {
-                font-size: 3.2rem;
-                border-bottom: 0;
-            }
-        }
-
-        h2, p {
-            font-size: 1.2rem;
-        }
-    }
-
-
-    .pull-container {
-        grid-template-columns: 1.4rem auto;
-        .pull-icon {
-            height: 1.4rem;
-            width: 1.4rem;
-        }
-        .pull-text {
-            p {
-                font-size: 1rem;
-            }
-        }
-    }
 }
 
 @media(max-width: 1024px) {
-    .landing-description {
-        margin-left: 0;
-    }
+
 }
 
 @media(max-width: 840px){
-    .landing-container {
+    .resource-grid {
 
-        .landing-name {
-            a {
-                font-size: 3rem;
-                border-bottom: 0;
-            }
-        }
-
-        h2, p {
-            font-size: 1rem;
+        .resource-section {
+            width: 100%;
+            margin-bottom: 2rem;
         }
     }
-    .landing-footer {
-        margin-top: 5rem;
-    }
-    .greeting-container {
-        margin-top: 9rem;
-        margin-bottom: 1rem;
-    }
 
-    .pull-container {
-        grid-template-columns: 1.3rem auto;
-        .pull-icon-container {
-            padding-top: 0.5rem;
-        }
-        .pull-icon {
-            height: 1.3rem;
-            width: 1.3rem;
-        }
-        .pull-text {
-            p {
-                font-size: 0.9rem;
-            }
-        }
+    hr {
+        margin: 2rem 0;
     }
 }
 
 @media(max-width: 600px){
-    .greeting-container {
-        margin-top: 6rem;
-    }
 
 }
 
 @media(max-width: 400px){
 
-    .landing-greeting {
-        margin-top: 6rem;
-    }
+
 }
 
 @media(max-height: 500px) {
 
-    .landing-container {
-        height: 100%;
-        margin-bottom: 4rem;
-    }
 }
 
