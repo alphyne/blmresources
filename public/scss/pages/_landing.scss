@@ -7,11 +7,28 @@
     height: 100vh;
     background-color: #FCE21C;
     padding: 4rem;
+    font-family: "Darker Grotesque", sans-serif;
 
     h1 {
         font-family: "Darker Grotesque", sans-serif;
         font-weight: 600;
         font-size: 8rem;
+        text-align: right;
+        margin-left: 25%;
+    }
+
+    h2, h3 {
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 6rem;
+        margin-top: 6rem;
+    }
+    h3 {
+        font-weight: 600;
+        font-size: 4rem;
+        margin: 1rem;
     }
   }
 
@@ -119,6 +136,19 @@ hr {
         height: 98vh;
         background-color: #FCE21C;
         padding: 1rem;
+
+        h1 {
+            font-size: 6rem;
+        }
+
+        h2 {
+            font-size: 3rem;
+            margin-top: 4rem;
+        }
+
+        h3 {
+            font-size: 2rem;
+        }
     }
 }
 
