@@ -15,17 +15,18 @@
 					"organization": "Friday Things"
 				},
 				{
-					"title": "The Guide to Becoming a Black Community Ally",
-					"url": "https://www.suu.edu/diversity/allyship-guides/black-ally.html",
-					"source": "true",
-					"organization": "Southern Utah University"
-				},
-				{
 					"title": "20+ Allyship Actions for Asians to Show Up for the Black Community Right Now",
 					"url": "https://medium.com/awaken-blog/20-allyship-actions-for-asians-to-show-up-for-the-black-community-right-now-464e5689cf3e",
 					"source": "true",
 					"organization": "Michelle Kim via Medium"
+				},
+				{
+					"title": "The Guide to Becoming a Black Community Ally",
+					"url": "https://www.suu.edu/diversity/allyship-guides/black-ally.html",
+					"source": "true",
+					"organization": "Southern Utah University"
 				}
+
 			]
 			
 
@@ -187,6 +188,12 @@
 					"organization": "Peggy McIntosh at TEDxTimerlaneSchools"
 				},
 				{
+					"title": "The 'Doll Test' (2:44)",
+					"url": "https://www.youtube.com/watch?v=QRZPw-9sJtQ",
+					"source": true,
+					"organization": "Fanpage.it via YouTube"
+				},
+				{
 					"title": "Black Feminism & the Movement for Black Lives: Barbara Smith, Reina Gossett, Charlene Carruthers (50:48)",
 					"url": "https://www.youtube.com/watch?v=eV3nnFheQRo&feature=youtu.be",
 					"source": true,
@@ -201,9 +208,9 @@
 			"block-one": [
 				{
 					"title": "13th",
-					"url": "https://www.netflix.com/title/80091741",
+					"url": "https://www.youtube.com/watch?v=krfcq5pF8u8",
 					"source": true,
-					"organization": "Ava DuVernay - Netflix"
+					"organization": "Ava DuVernay - YouTube or Netflix"
 				},
 				{
 					"title": "Fruitvale Station",
@@ -245,7 +252,7 @@
 					"title": "I Know Why the Caged Bird Sings",
 					"url": "https://www.penguinrandomhouse.com/books/3924/i-know-why-the-caged-bird-sings-by-maya-angelou/",
 					"source": true,
-					"organization": "Maya Angelous"
+					"organization": "Maya Angelou"
 				},
 				{
 					"title": "So You Want to Talk About Race",

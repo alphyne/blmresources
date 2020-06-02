@@ -44,7 +44,7 @@
         //padding: 4rem 4rem;
         max-width: 800px;
         h1 {
-            font-size: 1.6rem;
+            font-size: 2rem;
             line-height: 3rem;
             margin-bottom: 1rem;
     
@@ -104,17 +104,49 @@ hr {
         h4 {
             margin-right: 2rem;
         }
+
     }
 }
 
-.social-target {
-    text-decoration: none;
+.organization-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    h3 {
+        width: 50%;
+        margin-bottom: 4rem;
+    }
 }
-.social-icon {
-    height: 1.5rem;
-    fill: white;
-    text-decoration: none;
+
+.social-group {
+    width: 50%;
+
+    //padding-left: 2rem;
+
+    .social-target {
+        text-decoration: none;
+        border-bottom: none;
+        margin-right: 1rem;
+        opacity: 0.6;
+    }
+
+    .social-target:hover {
+        opacity: 1;
+    }
+    
+    .social-icon {
+        height: 1.5rem;
+        fill: #FCE21C;
+        text-decoration: none;
+    }
+
+    .social-target:first-child {
+        padding-left: 2rem;
+    }
 }
+
+
 
 .arrow-container {
     text-align: center;
