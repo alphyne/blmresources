@@ -113,10 +113,15 @@ body {
 }
 
 @media(max-width: 840px){
-    .page-container {       
+    .page-container {      
+        
+        h1 {
+            padding-right: 0;
+        }
+
 
         h2 {
-            font-size: 2rem;
+            font-size: 2.5rem;
         }
     }
 }
