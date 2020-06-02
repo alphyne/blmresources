@@ -138,23 +138,24 @@ hr {
         padding: 1rem;
 
         h1 {
-            font-size: 3rem;
-            margin-left: none;
+            font-size: 5rem;
         }
 
         h2 {
-            font-size: 2rem;
+            font-size: 3rem;
             margin-top: 4rem;
         }
 
         h3 {
-            font-size: 1.5rem;
+            font-size: 2rem;
         }
     }
 }
 
 @media(max-width: 400px){
-
+    h1 {
+        margin-left: 0;
+    }
 
 }
 
