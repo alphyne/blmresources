@@ -60,7 +60,9 @@ body {
 
 @media (max-width: 600px) {
   .page-container {
-    margin: 0 1rem; } }
+    margin: 0 1rem; }
+    .page-container h2 {
+      font-size: 3rem; } }
 
 .footer-icon {
   height: 1.5rem;
@@ -89,6 +91,13 @@ body {
       width: 50%; }
   .footer-container hr {
     margin: 0.5rem 0; }
+
+@media (max-width: 840px) {
+  .footer-container {
+    display: block; }
+    .footer-container .footer-section {
+      margin-top: 2rem;
+      width: 100%; } }
 
 .logo-container {
   margin-top: 2.5rem;

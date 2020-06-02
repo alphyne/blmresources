@@ -100,59 +100,19 @@ body {
 
 @media(max-width: 1024px){
 
-    .page-container{
-        //margin: 0 6rem;
 
-        h1 {
-            //font-size: 2.4rem;
-        }
-    
-        h2 {
-            //font-size: 1.8rem;
-        }
-    
-        h3 {
-            //font-size: 1.4rem;
-        }
-    
-        h4 {
-            //font-size: 1.2rem;
-        }
-
-        p {
-            //font-size: 1rem;
-        }
-    }
 }
 
 @media(max-width: 840px){
 
-    .page-container {       
-
-        h1 {
-            //font-size: 2.4rem;
-        }
-    
-        h2 {
-            //font-size: 1.8rem;
-        }
-    
-        h3 {
-            //font-size: 1.4rem;
-        }
-    
-        h4 {
-            //font-size: 1.2rem;
-        }
-
-        p {
-            //font-size: 1rem;
-        }
-    }
 }
 
 @media(max-width: 600px){
     .page-container {       
         margin: 0 1rem;
+
+        h2 {
+            font-size: 3rem;
+        }
     }
 }

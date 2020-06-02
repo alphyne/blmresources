@@ -52,7 +52,14 @@
 }
 
 @media(max-width: 840px){
+    .footer-container {
+        display: block;
 
+        .footer-section {
+            margin-top: 2rem;
+            width: 100%;
+        }
+    }
 
 }
 
