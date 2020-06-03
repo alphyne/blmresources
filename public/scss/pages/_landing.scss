@@ -27,7 +27,7 @@
         margin-top: 6rem;
     }
     h3 {
-        font-weight: 600;
+        font-weight: 400;
         font-size: 4rem;
         margin: 1rem;
     }
@@ -37,7 +37,7 @@
     display: flex;
     justify-content: center;
 
-    margin-top: 4rem;
+    margin: 8rem 0;
 
     .quote {
         font-family: 'Montaga', serif;
@@ -128,11 +128,11 @@ hr {
         text-decoration: none;
         border-bottom: none;
         margin-right: 1rem;
-        opacity: 0.6;
     }
 
-    .social-target:hover {
-        opacity: 1;
+    .social-target:hover > svg {
+        transform: translateY(-0.125rem);
+        //transform: scale(0.9925);
     }
     
     .social-icon {
@@ -154,6 +154,8 @@ hr {
     //bottom: calc(100vh - calc(100vh*0.15));
 }
 
+
+
 @-webkit-keyframes moveUpDown {
     0% { transform: translateY(+16px); }
     50% { transform: translateY(-16px);}
@@ -171,18 +173,104 @@ hr {
 
 
 
+.button-section {
+    background-color: #28282B;
+    padding: 0 18%;
+
+    h2 {
+        font-family: "Darker Grotesque", sans-serif;
+        font-weight: 600;
+        font-size: 4rem;
+        line-height: 5rem;
+        padding-top: 8rem;
+    }
+
+    .button-group {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 4rem 0 8rem 0;
+    
+        font-family: "Darker Grotesque", sans-serif;
+
+        a {
+            width: 48.5%;
+            margin-bottom: 3%;
+            text-decoration: none;
+        }
+    
+        .button {
+
+            height: 15vw;
+            min-height: 10rem;
+            background-color: #FCE21C;
+            color: #111;
+            border-radius: 5px;
+            box-shadow: 0.5rem 0.5rem 0.5rem black;
+    
+            .button-label {
+                font-family: "Darker Grotesque", sans-serif;
+                padding: 1.5rem 1.5rem 0 0;
+                text-align: right;
+    
+                h3 {
+                    font-weight: 600;
+                    font-size: 3rem;
+                    padding-left: 9.5vw;
+                    //line-height: rem;
+                }
+            }
+        }
+
+        .button:hover {
+            transform: scale(0.9925);
+        }
+    }
+}
+
+.alt-colors {
+
+}
+
+@media(max-width: 1600px){
+    .button-section {
+        //margin: 0 13rem;
+        padding: 0 10%;
+    }
+}
 
 @media(max-width: 1280px){
+    .button-section {
+        .button-group {
+            .button {
+
+                .button-label {
+
+                    h3 {
+                        padding-left: 2vw;
+                    }   
+                }
+            }
+        }
+    }
 
 }
 
 @media(max-width: 1024px) {
 
+    .button-section {
+        h2 {
+            font-size: 3rem;
+            line-height: 3.5rem;
+        }
+    }
+
 }
 
 @media(max-width: 840px){
     .resource-grid {
-
         .resource-section {
             width: 100%;
             margin-bottom: 2rem;
@@ -203,8 +291,25 @@ hr {
         h2 {
             margin-right: 0;
         }
-
     }
+
+    .button-section {
+        .button-group {
+            .button {
+                min-height: 8rem;
+
+                .button-label {
+                    padding: 2vw 2vw 0 0;
+
+                    h3 {
+                        font-size: 2rem;
+                        padding-left: 6vw;
+                    }   
+                }
+            }
+        }
+    }
+
 
 }
 
@@ -231,10 +336,62 @@ hr {
     .arrow-container {
         margin-top: 2rem;
     }
+
+    .button-section {    
+        padding: 0 1rem;
+
+        h2 {
+            padding-top: 4rem;
+        }
+
+        .button-group {
+            padding: 2rem 0 4rem 0;
+
+            a {
+                width: 48%;
+                margin-bottom: 4%;
+            }
+        
+            .button {
+
+                height: 25vw;
+        
+                .button-label {
+                    padding: 3vw 3vw 0 0;
+                    h3 {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+    
+
+    .organization-section {
+
+        h3 {
+            //width: 60%;
+        }
+    }
+    
+    .social-group {
+        //width: 40%;
+    }
+
+
 }
 
-@media(max-width: 400px){
+@media(max-width: 350px){
+    .organization-section {
 
+        h3 {
+            width: 40%;
+        }
+    }
+    
+    .social-group {
+        width: 60%;
+    }
 
 }
 

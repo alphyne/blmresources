@@ -28,20 +28,14 @@
 	</head>
 	<body>
 
-
 		<div class="landing-container">
 			<div class="landing-background">
 				<h1>BE ON THE RIGHT SIDE OF HISTORY</h1>
 				<h2>
 					&mdash;resources on&mdash;
 				</h2>
-				<h3>
-					(ANTI-RACISM)
-				</h3>
-
-				<h3>
-					(ACTIVE ALLYSHIP)
-				</h3>
+				<h3>(ANTI-RACISM)</h3>
+				<h3>(ACTIVE ALLYSHIP)</h3>
 
 				<div class="arrow-container">
 					<svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
@@ -66,237 +60,52 @@
 				</div>
 			</div>
 
-			<hr>
+		</div>
 
-			<!-- Bail funds -->
-			<div class="section-container">
-				<div class="resource-grid">
-					<div class="resource-section">
-						<h2>Donate to bail funds&mdash;</h2>
+		<div class="button-section">
+			<h2>Get Involved&mdash;</h2>
+			<div class="button-group">
+				<a href="bail-funds">
+					<div class="button">		
+						<div class="button-label">
+							<h3>Donate to bail funds &amp; groups</h3>
+						</div>
+									
 					</div>
-					<div class="resource-section">
-						{{#each donations}}
-							{{#each block-two}}
-								<h4><a target="_blank" href="{{url}}">{{title}}</a>
-								{{#if source}}
-									by {{organization}}
-								{{/if}}	
-								</h4>
-							{{/each}}
-						{{/each}}
-					</div>
-				</div>
-			</div>
+				</a>
 
-			<hr>
-
-			<!-- Petitions -->
-			<div class="section-container">
-				<div class="resource-grid">
-					<div class="resource-section">
-						<h2>Sign petitions&mdash;</h2>
+				<a href="petitions">
+					<div class="button">
+						<div class="button-label">
+							<h3>Sign petitions</h3>
+						</div>
 					</div>
-					<div class="resource-section">
-						{{#each petitions}}
-							{{#each block-one}}
-								<h4><a target="_blank" href="{{url}}">{{title}}</a>
-								{{#if source}}
-									by {{organization}}
-								{{/if}}	
-								</h4>
-							{{/each}}
-						{{/each}}
+				</a>
+				<a href="organizations">
+				<div class="button">
+					<div class="button-label">
+						<h3>Follow Black activism organizations</h3>
 					</div>
 				</div>
+				</a>
+
+				<a href="how-to-be-an-ally">
+					<div class="button">
+						<div class="button-label">
+							<h3>Learn how to be an ally</h3>
+						</div>
+					</div>
+				</a>
+
 			</div>
+		</div>
+		<div class="page-container">
 
-			<hr>
-
-			<!-- Allyship resources -->
+			<!-- Anti-racism starter pack -->
 			<div class="section-container">
 				<div class="resource-grid">
 					<div class="resource-section">
-						<h2>Be an ally&mdash;</h2>
-					</div>
-					<div class="resource-section">
-						{{#each allyship}}
-							{{#each block-one}}
-								<h4><a target="_blank" href="{{url}}">{{title}}</a>
-								{{#if source}}
-									by {{{organization}}}
-								{{/if}}	
-								</h4>
-							{{/each}}
-						{{/each}}
-					</div>
-
-				</div>
-			</div>
-
-			<hr>
-
-
-
-			<!-- Donations -->
-			<div class="section-container">
-				<div class="resource-grid">
-					<div class="resource-section">
-						<h2>Support groups fighting racism&mdash;</h2>
-					</div>
-					<div class="resource-section">
-						{{#each donations}}
-							{{#each block-one}}
-								<h4><a target="_blank" href="{{url}}">{{title}}</a>
-								{{#if source}}
-									by {{organization}}
-								{{/if}}	
-								</h4>
-							{{/each}}
-						{{/each}}
-					</div>
-					<div class="resource-section">
-						{{#each donations}}
-							{{#each block-three}}
-								<h4><a target="_blank" href="{{url}}">{{title}}</a>
-								{{#if source}}
-									by {{organization}}
-								{{/if}}	
-								</h4>
-							{{/each}}
-						{{/each}}
-					</div>
-				</div>
-			</div>
-
-			<hr>
-
-			<!-- Learning material -->
-			<div class="section-container">
-				<div class="resource-grid">
-					<div class="resource-section">
-						<h2>Learn&mdash;</h2>
-					</div>
-
-					<div class="resource-section">
-						{{#each donations}}
-							{{#if one}}
-								<h4><a target="_blank" href="{{url}}">{{title}}</a></h4>
-							{{/if}}
-						{{/each}}
-					</div>
-					<div class="resource-section">
-						{{#each donations}}
-							{{#if two}}
-
-								<h4><a target="_blank" href="{{url}}">{{title}}</a></h4>
-							{{/if}}
-						{{/each}}
-					</div>
-					<div class="resource-section">
-						{{#each donations}}
-							{{#if three}}
-								<h4><a target="_blank" href="{{url}}">{{title}}</a></h4>
-							{{/if}}
-						{{/each}}
-					</div>
-				</div>
-			</div>
-
-			<hr>
-
-			<!-- Videos -->
-			<div class="section-container">
-				<div class="resource-grid">
-					<div class="resource-section">
-						<h2>Share videos&mdash;</h2>
-					</div>
-					<div class="resource-section">
-						{{#each videos}}
-							{{#each block-one}}
-								<h4><a target="_blank" href="{{url}}">{{title}}</a>
-								{{#if source}}
-									by {{organization}}
-								{{/if}}	
-								</h4>
-							{{/each}}
-						{{/each}}
-					</div>
-				</div>
-			</div>
-
-			<hr>
-
-			<!-- Film and TV -->
-			<div class="section-container">
-				<div class="resource-grid">
-					<div class="resource-section">
-						<h2>Watch Film &amp; TV&mdash;</h2>
-					</div>
-					<div class="resource-section">
-						{{#each filmandtv}}
-							{{#each block-one}}
-								<h4><a target="_blank" href="{{url}}">{{title}}</a>
-								{{#if source}}
-									by {{organization}}
-								{{/if}}	
-								</h4>
-							{{/each}}
-						{{/each}}
-					</div>
-				</div>
-			</div>
-
-			<hr>
-
-			<!-- Books -->
-			<div class="section-container">
-				<div class="resource-grid">
-					<div class="resource-section">
-						<h2>Read books&mdash;</h2>
-					</div>
-					<div class="resource-section">
-						{{#each books}}
-							{{#each block-one}}
-								<h4><a target="_blank" href="{{url}}">{{title}}</a>
-								{{#if source}}
-									by {{organization}}
-								{{/if}}	
-								</h4>
-							{{/each}}
-						{{/each}}
-					</div>
-				</div>
-			</div>
-
-			<hr>
-
-			<!-- Podcasts -->
-			<div class="section-container">
-				<div class="resource-grid">
-					<div class="resource-section">
-						<h2>Listen to podcasts&mdash;</h2>
-					</div>
-					<div class="resource-section">
-						{{#each podcasts}}
-							{{#each block-one}}
-								<h4><a target="_blank" href="{{url}}">{{title}}</a>
-								{{#if source}}
-									by {{organization}}
-								{{/if}}	
-								</h4>
-							{{/each}}
-						{{/each}}
-					</div>
-				</div>
-			</div>
-
-			<hr>
-
-			<!-- Organizations -->
-			<div class="section-container">
-				<div class="resource-grid">
-					<div class="resource-section">
-						<h2>Follow organizations&mdash;</h2>
+						<h2>Anti-racism Starter Pack&mdash;</h2>
 					</div>
 					<div class="resource-section organization-section">
 						{{#each organizations}}
@@ -329,7 +138,48 @@
 				</div>
 						
 			</div>
-			<hr>
+		</div>
+
+		<div class="button-section">
+			<h2>Get Educated&mdash;</h2>
+			<div class="button-group">
+				<a href="books">
+					<div class="button">		
+						<div class="button-label">
+							<h3>Books</h3>
+						</div>
+									
+					</div>
+				</a>
+
+				<a href="film-and-tv">
+					<div class="button">
+						<div class="button-label">
+							<h3>Film &amp; TV</h3>
+						</div>
+					</div>
+				</a>
+				<a href="podcasts">
+				<div class="button">
+					<div class="button-label">
+						<h3>Podcasts</h3>
+					</div>
+				</div>
+				</a>
+
+				<a href="videos">
+					<div class="button">
+						<div class="button-label">
+							<h3>Videos</h3>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+
+
+		<div class="page-container">
+
 			<div class="section-container">
 
 				<h2>Say their names&mdash;</h2>

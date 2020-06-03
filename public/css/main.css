@@ -9,7 +9,7 @@ body {
   margin: 0 18%;
   font-family: "Darker Grotesque", sans-serif; }
   .page-container h1 {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 2.8rem;
     line-height: 4rem;
     margin-bottom: 1rem;
@@ -49,11 +49,6 @@ body {
     padding-bottom: 0.15rem; }
   .page-container a:hover {
     border-bottom: none; }
-  .page-container ul {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.4; }
 
 @media (max-width: 1600px) {
   .page-container {
@@ -113,42 +108,43 @@ body {
     .footer-container .footer-right {
       text-align: left; } }
 
-/* Strikethrough hover pen by tsimenis on Codepen */
-.strike span, .strike-name span {
-  position: relative;
-  cursor: pointer; }
+@-webkit-keyframes moveLeft {
+  0% {
+    transform: translateX(); }
+  100% {
+    transform: translateX(-16px); } }
 
-.strike span:before, .strike span:after, .strike-name span:before, .strike-name span:after {
-  content: '';
-  position: absolute;
-  width: 0%;
-  height: 1px;
-  margin-top: -0.5px;
-  background: white; }
+.header-container {
+  padding: 2rem 0; }
+  .header-container .icon-back {
+    height: 4rem;
+    width: 2.5rem;
+    fill: white; }
+  .header-container .icon-target:hover .icon-back {
+    transition: all 0.6s ease-in-out;
+    transform: translateX(-1rem); }
+  .header-container .icon-target {
+    border-bottom: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .header-container .text-back {
+    color: white;
+    font-size: 3rem;
+    padding-top: 0.25rem;
+    padding-left: 0.25rem; }
 
-.strike span:before, .strike-name span:before {
-  left: 0px; }
-
-.strike span:after, .strike-name span:after {
-  right: 0px;
-  background: white;
-  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1); }
-
-.strike span:hover:before, .strike-name span:hover:before {
-  background: white;
-  width: 100%;
-  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1); }
-
-.strike span:hover:after, .strike-name span:hover:after {
-  background: transparent;
-  width: 100%;
-  transition: 0s; }
-
-.strike-name span:before, .strike-name span:after {
-  top: 100%; }
-
-.strike span:before, .strike span:after {
-  top: 120%; }
+@media (max-width: 840px) {
+  .header-container {
+    padding: 2rem 0; }
+    .header-container .icon-back {
+      height: 3rem;
+      width: 2rem; }
+    .header-container .icon-target:hover .icon-back {
+      transform: translateX(-0.5rem); }
+    .header-container .text-back {
+      font-size: 2rem;
+      padding-top: 0.25rem; } }
 
 /* Page specific styling */
 .project-block-container {
@@ -603,14 +599,14 @@ body {
     font-size: 6rem;
     margin-top: 6rem; }
   .landing-background h3 {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 4rem;
     margin: 1rem; }
 
 .quote-container {
   display: flex;
   justify-content: center;
-  margin-top: 4rem; }
+  margin: 8rem 0; }
   .quote-container .quote {
     font-family: 'Montaga', serif;
     max-width: 800px; }
@@ -666,10 +662,9 @@ hr {
   .social-group .social-target {
     text-decoration: none;
     border-bottom: none;
-    margin-right: 1rem;
-    opacity: 0.6; }
-  .social-group .social-target:hover {
-    opacity: 1; }
+    margin-right: 1rem; }
+  .social-group .social-target:hover > svg {
+    transform: translateY(-0.125rem); }
   .social-group .social-icon {
     height: 1.5rem;
     fill: #FCE21C;
@@ -697,6 +692,57 @@ hr {
   animation-iteration-count: infinite;
   transition-timing-function: cubic-bezier(0, 0.86, 0.75, 0.67); }
 
+.button-section {
+  background-color: #28282B;
+  padding: 0 18%; }
+  .button-section h2 {
+    font-family: "Darker Grotesque", sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 5rem;
+    padding-top: 8rem; }
+  .button-section .button-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4rem 0 8rem 0;
+    font-family: "Darker Grotesque", sans-serif; }
+    .button-section .button-group a {
+      width: 48.5%;
+      margin-bottom: 3%;
+      text-decoration: none; }
+    .button-section .button-group .button {
+      height: 15vw;
+      min-height: 10rem;
+      background-color: #FCE21C;
+      color: #111;
+      border-radius: 5px;
+      box-shadow: 0.5rem 0.5rem 0.5rem black; }
+      .button-section .button-group .button .button-label {
+        font-family: "Darker Grotesque", sans-serif;
+        padding: 1.5rem 1.5rem 0 0;
+        text-align: right; }
+        .button-section .button-group .button .button-label h3 {
+          font-weight: 600;
+          font-size: 3rem;
+          padding-left: 9.5vw; }
+    .button-section .button-group .button:hover {
+      transform: scale(0.9925); }
+
+@media (max-width: 1600px) {
+  .button-section {
+    padding: 0 10%; } }
+
+@media (max-width: 1280px) {
+  .button-section .button-group .button .button-label h3 {
+    padding-left: 2vw; } }
+
+@media (max-width: 1024px) {
+  .button-section h2 {
+    font-size: 3rem;
+    line-height: 3.5rem; } }
+
 @media (max-width: 840px) {
   .resource-grid .resource-section {
     width: 100%;
@@ -706,7 +752,14 @@ hr {
   .landing-background h1 {
     margin-left: 10%; }
   .section-container h2 {
-    margin-right: 0; } }
+    margin-right: 0; }
+  .button-section .button-group .button {
+    min-height: 8rem; }
+    .button-section .button-group .button .button-label {
+      padding: 2vw 2vw 0 0; }
+      .button-section .button-group .button .button-label h3 {
+        font-size: 2rem;
+        padding-left: 6vw; } }
 
 @media (max-width: 600px) {
   .landing-background {
@@ -721,7 +774,28 @@ hr {
     .landing-background h3 {
       font-size: 2rem; }
   .arrow-container {
-    margin-top: 2rem; } }
+    margin-top: 2rem; }
+  .button-section {
+    padding: 0 1rem; }
+    .button-section h2 {
+      padding-top: 4rem; }
+    .button-section .button-group {
+      padding: 2rem 0 4rem 0; }
+      .button-section .button-group a {
+        width: 48%;
+        margin-bottom: 4%; }
+      .button-section .button-group .button {
+        height: 25vw; }
+        .button-section .button-group .button .button-label {
+          padding: 3vw 3vw 0 0; }
+          .button-section .button-group .button .button-label h3 {
+            font-size: 1.5rem; } }
+
+@media (max-width: 350px) {
+  .organization-section h3 {
+    width: 40%; }
+  .social-group {
+    width: 60%; } }
 
 /* Base styling */
 @font-face {

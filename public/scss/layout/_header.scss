@@ -1,61 +1,46 @@
+@-webkit-keyframes moveLeft {
+    0% { transform: translateX(); }
+    100% { transform: translateX(-16px);}
+}
 .header-container{
 
+    padding: 2rem 0;
 
-}
-
-
-
-
-/* Strikethrough hover pen by tsimenis on Codepen */
-.strike, .strike-name {
-    span {
-        position: relative;
-        cursor: pointer;
+    .icon-back {
+        height: 4rem;
+        width: 2.5rem;
+        fill: white;
     }
 
-    span:before, span:after {
-        content: '';
-        position: absolute;
-        width: 0%;
-        height: 1px;
-        margin-top: -0.5px;
-        background: white;
+    .icon-target:hover {
+        //animation-name: moveLeft;
+        //animation-duration: 1s;
+        //transition-timing-function: ease-in-out;
+
+        .icon-back {
+            transition: all 0.6s ease-in-out;
+            //transform: scale(1.05);
+            transform: translateX(-1rem);
+        }
     }
 
-    span:before {
-        left: 0px;
+    .icon-target {
+        border-bottom: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
-    span:after {
-        right: 0px;
-        background: white;
-        transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
-    }
-
-    span:hover:before {
-        background: white;
-        width: 100%;
-        transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
-    }
-
-    span:hover:after {
-        background: transparent;
-        width: 100%;
-        transition: 0s;
+    .text-back {
+        color: white;
+        font-size: 3rem;
+        //line-height: 4rem;
+        //height: 4rem;
+        padding-top: 0.25rem;
+        padding-left: 0.25rem;
     }
 }
 
-.strike-name {
-  span:before, span:after {
-      top: 100%;
-  }
-}
-
-.strike {
-  span:before, span:after {
-    top: 120%;
-  }
-}
 
 @media(max-width: 1600px){
 
@@ -73,7 +58,28 @@
 
 @media(max-width: 840px){
 
+    .header-container{
 
+        padding: 2rem 0;
+    
+        .icon-back {
+            height: 3rem;
+            width: 2rem;
+        }
+
+        .icon-target:hover {
+
+            .icon-back {
+                transform: translateX(-0.5rem);
+            }
+    
+        }
+
+        .text-back {
+            font-size: 2rem;
+            padding-top: 0.25rem;
+        }
+    }
 }
 
 @media(max-width: 600px){
