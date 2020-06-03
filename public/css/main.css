@@ -15,8 +15,8 @@ body {
     margin-bottom: 1rem;
     font-family: 'Montaga', serif; }
   .page-container h2 {
-    font-weight: 500;
-    font-size: 4.5rem;
+    font-weight: 600;
+    font-size: 4rem;
     line-height: 5rem;
     padding-right: 2rem; }
   .page-container h3 {
@@ -56,8 +56,8 @@ body {
 
 @media (max-width: 1024px) {
   .page-container h2 {
-    font-size: 4rem;
-    line-height: 4.5rem; } }
+    font-size: 3rem;
+    line-height: 3.5rem; } }
 
 @media (max-width: 840px) {
   .page-container h1 {
@@ -75,7 +75,6 @@ body {
   text-decoration: none; }
 
 .footer-container {
-  margin-top: 8rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -115,7 +114,14 @@ body {
     transform: translateX(-16px); } }
 
 .header-container {
-  padding: 2rem 0; }
+  position: fixed;
+  background-color: #111;
+  background-color: #28282B;
+  width: 100%;
+  top: 0;
+  box-shadow: 0.5rem 0.5rem 0.5rem black;
+  padding: 1.5rem 0;
+  font-family: "Darker Grotesque", sans-serif; }
   .header-container .icon-back {
     height: 4rem;
     width: 2.5rem;
@@ -124,19 +130,26 @@ body {
     transition: all 0.6s ease-in-out;
     transform: translateX(-1rem); }
   .header-container .icon-target {
+    left: 0;
     border-bottom: none;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    text-decoration: none;
+    padding-left: 18%; }
   .header-container .text-back {
     color: white;
     font-size: 3rem;
     padding-top: 0.25rem;
     padding-left: 0.25rem; }
 
+@media (max-width: 1600px) {
+  .header-container .icon-target {
+    padding-left: 10%; } }
+
 @media (max-width: 840px) {
   .header-container {
-    padding: 2rem 0; }
+    padding: 1.25rem 0; }
     .header-container .icon-back {
       height: 3rem;
       width: 2rem; }
@@ -145,6 +158,10 @@ body {
     .header-container .text-back {
       font-size: 2rem;
       padding-top: 0.25rem; } }
+
+@media (max-width: 600px) {
+  .header-container .icon-target {
+    padding-left: 1rem; } }
 
 /* Page specific styling */
 .project-block-container {
@@ -621,7 +638,9 @@ body {
       font-size: 1.4rem; }
 
 hr {
-  margin: 4rem 0; }
+  margin: 4rem 0;
+  color: #28282B;
+  background-color: #28282B; }
 
 .person-container {
   height: 2rem;
@@ -639,6 +658,9 @@ hr {
 
 .section-container h3 {
   margin-bottom: 1rem; }
+
+.resource-container:first-child {
+  padding-top: 11rem; }
 
 .resource-grid {
   display: flex;
@@ -658,7 +680,8 @@ hr {
     margin-bottom: 4rem; }
 
 .social-group {
-  width: 50%; }
+  width: 50%;
+  padding-top: 0.25rem; }
   .social-group .social-target {
     text-decoration: none;
     border-bottom: none;
@@ -713,8 +736,10 @@ hr {
       margin-bottom: 3%;
       text-decoration: none; }
     .button-section .button-group .button {
-      height: 15vw;
-      min-height: 10rem;
+      height: 0;
+      overflow: hidden;
+      padding-top: 56.25%;
+      position: relative;
       background-color: #FCE21C;
       color: #111;
       border-radius: 5px;
@@ -722,11 +747,16 @@ hr {
       .button-section .button-group .button .button-label {
         font-family: "Darker Grotesque", sans-serif;
         padding: 1.5rem 1.5rem 0 0;
-        text-align: right; }
+        text-align: right;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%; }
         .button-section .button-group .button .button-label h3 {
           font-weight: 600;
           font-size: 3rem;
-          padding-left: 9.5vw; }
+          padding-left: 10vw; }
     .button-section .button-group .button:hover {
       transform: scale(0.9925); }
 
@@ -736,7 +766,7 @@ hr {
 
 @media (max-width: 1280px) {
   .button-section .button-group .button .button-label h3 {
-    padding-left: 2vw; } }
+    padding-left: 6vw; } }
 
 @media (max-width: 1024px) {
   .button-section h2 {
@@ -747,19 +777,19 @@ hr {
   .resource-grid .resource-section {
     width: 100%;
     margin-bottom: 2rem; }
+  .resource-container:first-child {
+    padding-top: 7rem; }
   hr {
     margin: 2rem 0; }
   .landing-background h1 {
     margin-left: 10%; }
   .section-container h2 {
     margin-right: 0; }
-  .button-section .button-group .button {
-    min-height: 8rem; }
-    .button-section .button-group .button .button-label {
-      padding: 2vw 2vw 0 0; }
-      .button-section .button-group .button .button-label h3 {
-        font-size: 2rem;
-        padding-left: 6vw; } }
+  .button-section .button-group .button .button-label {
+    padding: 2vw 2vw 0 0; }
+    .button-section .button-group .button .button-label h3 {
+      font-size: 2rem;
+      padding-left: 6vw; } }
 
 @media (max-width: 600px) {
   .landing-background {
@@ -784,12 +814,14 @@ hr {
       .button-section .button-group a {
         width: 48%;
         margin-bottom: 4%; }
-      .button-section .button-group .button {
-        height: 25vw; }
-        .button-section .button-group .button .button-label {
-          padding: 3vw 3vw 0 0; }
-          .button-section .button-group .button .button-label h3 {
-            font-size: 1.5rem; } }
+      .button-section .button-group .button .button-label {
+        padding: 3vw 3vw 0 0; }
+        .button-section .button-group .button .button-label h3 {
+          font-size: 1.25rem; }
+  .organization-section h3 {
+    width: 50%; }
+  .social-group {
+    width: 50%; } }
 
 @media (max-width: 350px) {
   .organization-section h3 {
