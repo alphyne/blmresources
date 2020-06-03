@@ -61,12 +61,6 @@
 
 }
 
-hr {
-    margin: 4rem 0;
-    color: #28282B;
-    background-color: #28282B;
-}
-
 .person-container {
     height: 2rem;
     width: 17rem;
@@ -82,7 +76,7 @@ hr {
 
 .section-container {
 
-    //padding-top: 2rem;
+    margin: 4rem 0;
 
     h2 {
         margin: 2rem 0;
@@ -95,7 +89,7 @@ hr {
 }
 
 .resource-container:first-child {
-    padding-top: 11rem;
+    padding-top: 7rem;
 }
 
 .resource-grid {
@@ -248,6 +242,10 @@ hr {
     }
 }
 
+.landing-section {
+    //margin: 8rem 0;
+}
+
 
 @media(max-width: 1600px){
     .button-section {
@@ -293,11 +291,7 @@ hr {
     }
 
     .resource-container:first-child {
-        padding-top: 7rem;
-    }
-
-    hr {
-        margin: 2rem 0;
+        padding-top: 5rem;
     }
 
     .landing-background {
@@ -307,13 +301,24 @@ hr {
     }
 
     .section-container {
+
+        //margin: 2rem 0;
+
         h2 {
             margin-right: 0;
         }
     }
 
+    .landing-section {
+        //margin: 2rem 0;
+    }
+
     .button-section {
+        h2 {
+           // margin-top: 2rem;
+        }
         .button-group {
+            //margin-bottom: 2rem;
             .button {
                 //min-height: 9rem;
 
@@ -360,11 +365,11 @@ hr {
         padding: 0 1rem;
 
         h2 {
-            padding-top: 4rem;
+            //padding-top: 4rem;
         }
 
         .button-group {
-            padding: 2rem 0 4rem 0;
+            //padding: 2rem 0 4rem 0;
 
             a {
                 width: 48%;

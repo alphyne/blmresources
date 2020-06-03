@@ -1,4 +1,17 @@
 {
+	"recommended": [
+		{
+			"block": true,
+			"block-one": [
+				{
+					"title": "13th",
+					"url": "https://www.youtube.com/watch?v=krfcq5pF8u8",
+					"source": true,
+					"organization": "Ava DuVernay - YouTube or Netflix"
+				}
+			]
+		}
+	],
 	"resources": [
 		{
 			"url": "how-to-be-an-ally",
