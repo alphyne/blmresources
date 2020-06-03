@@ -79,7 +79,6 @@
     margin: 4rem 0;
 
     h2 {
-        margin: 2rem 0;
         margin-right: 4rem;
     }
 
@@ -89,7 +88,7 @@
 }
 
 .resource-container:first-child {
-    padding-top: 7rem;
+    margin-top: 11rem;
 }
 
 .resource-grid {
@@ -199,8 +198,8 @@
         font-family: "Darker Grotesque", sans-serif;
 
         a {
-            width: 48.5%;
-            margin-bottom: 3%;
+            width: calc(calc(50%) - 1rem);
+            margin-bottom: 2rem;
             text-decoration: none;
         }
     
@@ -243,7 +242,11 @@
 }
 
 .landing-section {
-    //margin: 8rem 0;
+    margin: 8rem 0;
+}
+
+.name-header {
+    margin-bottom: 4rem;
 }
 
 
@@ -291,7 +294,7 @@
     }
 
     .resource-container:first-child {
-        padding-top: 5rem;
+        margin-top: 9rem;
     }
 
     .landing-background {
@@ -302,7 +305,7 @@
 
     .section-container {
 
-        //margin: 2rem 0;
+        margin: 4rem 0;
 
         h2 {
             margin-right: 0;
@@ -310,15 +313,25 @@
     }
 
     .landing-section {
-        //margin: 2rem 0;
+        margin: 4rem 0;
+    }
+
+    .name-header {
+        margin-bottom: 2rem;
     }
 
     .button-section {
         h2 {
-           // margin-top: 2rem;
+           padding-top: 4rem;
         }
         .button-group {
-            //margin-bottom: 2rem;
+            padding: 2rem 0 4rem 0;
+
+            a {
+                width: calc(calc(50%) - 0.5rem);
+                margin-bottom: 1rem;
+            }
+
             .button {
                 //min-height: 9rem;
 
@@ -369,16 +382,8 @@
         }
 
         .button-group {
-            //padding: 2rem 0 4rem 0;
-
-            a {
-                width: 48%;
-                margin-bottom: 4%;
-            }
         
             .button {
-
-                //height: 25vw;
         
                 .button-label {
                     padding: 3vw 3vw 0 0;
