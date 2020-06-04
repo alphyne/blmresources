@@ -178,9 +178,10 @@
 .button-section {
     background-color: #28282B;
     padding: 0 18%;
+    font-family: "Darker Grotesque", sans-serif;
 
     h2 {
-        font-family: "Darker Grotesque", sans-serif;
+
         font-weight: 600;
         font-size: 4rem;
         line-height: 5rem;
@@ -317,9 +318,11 @@
 
         h2 {
             font-size: 2rem;
-            line-height: 3.25rem;
+            line-height: 2.5rem;
             margin-right: 0;
         }
+
+
     }
 
     .landing-section {
@@ -331,11 +334,13 @@
     }
 
     .button-section {
+
         h2 {
            padding-top: 4rem;
            font-size: 2rem;
-           line-height: 3.25rem;
+           line-height: 2.5rem;
         }
+
         .button-group {
             padding: 2rem 0 4rem 0;
 

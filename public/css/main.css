@@ -709,9 +709,9 @@ body {
 
 .button-section {
   background-color: #28282B;
-  padding: 0 18%; }
+  padding: 0 18%;
+  font-family: "Darker Grotesque", sans-serif; }
   .button-section h2 {
-    font-family: "Darker Grotesque", sans-serif;
     font-weight: 600;
     font-size: 4rem;
     line-height: 5rem;
@@ -788,7 +788,7 @@ body {
     margin: 4rem 0; }
     .section-container h2 {
       font-size: 2rem;
-      line-height: 3.25rem;
+      line-height: 2.5rem;
       margin-right: 0; }
   .landing-section {
     margin: 4rem 0; }
@@ -797,7 +797,7 @@ body {
   .button-section h2 {
     padding-top: 4rem;
     font-size: 2rem;
-    line-height: 3.25rem; }
+    line-height: 2.5rem; }
   .button-section .button-group {
     padding: 2rem 0 4rem 0; }
     .button-section .button-group a {
