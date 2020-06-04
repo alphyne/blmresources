@@ -249,6 +249,14 @@
     margin-bottom: 4rem;
 }
 
+.resource-item {
+
+    padding-bottom: 2rem;
+    .related-text {
+        margin-top: 0.5rem;
+    }
+}
+
 
 @media(max-width: 1600px){
     .button-section {
@@ -308,6 +316,8 @@
         margin: 4rem 0;
 
         h2 {
+            font-size: 2rem;
+            line-height: 3.25rem;
             margin-right: 0;
         }
     }
@@ -323,6 +333,8 @@
     .button-section {
         h2 {
            padding-top: 4rem;
+           font-size: 2rem;
+           line-height: 3.25rem;
         }
         .button-group {
             padding: 2rem 0 4rem 0;

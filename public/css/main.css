@@ -26,7 +26,6 @@ body {
   .page-container h4 {
     font-weight: 300;
     font-size: 1.4rem;
-    padding-bottom: 2rem;
     line-height: 1.8;
     color: #dddddd; }
   .page-container h5 {
@@ -759,6 +758,11 @@ body {
 .name-header {
   margin-bottom: 4rem; }
 
+.resource-item {
+  padding-bottom: 2rem; }
+  .resource-item .related-text {
+    margin-top: 0.5rem; }
+
 @media (max-width: 1600px) {
   .button-section {
     padding: 0 10%; } }
@@ -783,13 +787,17 @@ body {
   .section-container {
     margin: 4rem 0; }
     .section-container h2 {
+      font-size: 2rem;
+      line-height: 3.25rem;
       margin-right: 0; }
   .landing-section {
     margin: 4rem 0; }
   .name-header {
     margin-bottom: 2rem; }
   .button-section h2 {
-    padding-top: 4rem; }
+    padding-top: 4rem;
+    font-size: 2rem;
+    line-height: 3.25rem; }
   .button-section .button-group {
     padding: 2rem 0 4rem 0; }
     .button-section .button-group a {

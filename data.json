@@ -14,6 +14,118 @@
 	],
 	"resources": [
 		{
+			"url": "articles",
+			"title": "Articles",
+			"sections": [
+				{
+					"section-title": "Articles to read&mdash;",
+					"block": true,
+					"block-one": [
+						{
+							"title": "The Intersectionality Wars",
+							"url": "https://www.vox.com/the-highlight/2019/5/20/18542843/intersectionality-conservatism-law-race-gender-discrimination",
+							"author": true,
+							"author-name": "Jane Coaston",
+							"posted": "Vox (May 28, 2019)"
+						},
+						{
+							"title": "Who Gets to Be Afraid in America?",
+							"url": "https://www.theatlantic.com/ideas/archive/2020/05/ahmaud-arbery/611539/",
+							"author": true,
+							"author-name": "Dr. Ibram X. Kendi",
+							"posted": "Atlantic (May 12, 2020)"
+						}
+					]
+				}
+			]
+		},
+		{
+			"url": "addressing-anti-blackness-in-your-family",
+			"title": "Addressing anti-Blackness in your family",
+			"sections": [
+				{
+					"section-title": "Addressing anti-Blackness in your family&mdash;",
+					"block": true,
+					"block-one": [
+						{
+							"title": "Letters for Black Lives",
+							"url": "https://docs.google.com/document/d/1qwon6Q-h3YC2n_vZGKIVxZxEhXG8ZQah4IVCMQzGaUk/preview?pru=AAABcqAyGkQ*gFzVh0-aiX0E8EDOoMbzxA",
+							"description": true,
+							"description-content": "A set of crowdsourced, multilingual culturally-aware resources aimed at creating a space for open and honest conversations about racial justice, police violence, and anti-Blackness in our families and communities.",
+							"posted": "Vox (May 28, 2019)"
+						},
+						{
+							"title": "Talking About Race",
+							"url": "https://nmaahc.si.edu/learn/talking-about-race",
+							"description": true,
+							"description-content": "Tools and guidance to empower educators, parents, and anyone committed to equity when inspiring conversation about race."
+						},
+						{
+							"title": "A Letter From Young Asian-Americans To Their Families About Black Lives Matter",
+							"url": "https://www.npr.org/sections/codeswitch/2016/07/27/487375314/a-letter-from-young-asian-americans-to-their-families-about-black-lives-matter",
+							"author": true,
+							"author-name": "Code Switch",
+							"posted": "NPR"
+						},
+						{
+							"title": "6 Ways Asian Americans Can Tackle Anti-Black Racism in Their Families",
+							"url": "https://everydayfeminism.com/2016/01/asian-americans-tackle-anti-black-racism/",
+							"author": true,
+							"author-name": "Kim Tran",
+							"posted": "January 27, 2016 (Everyday Feminism)"
+						}
+					]
+				}
+			]
+		},
+		{
+			"url": "blackness-in-america",
+			"title": "Blackness in America",
+			"sections": [
+				{
+					"section-title": "Blackness in America&mdash;",
+					"block": true,
+					"block-one": [
+						{
+							"title": "The Coronavirus Was an Emergency Until Trump Found Out Who Was Dying",
+							"url": "https://www.theatlantic.com/ideas/archive/2020/05/americas-racial-contract-showing/611389/",
+							"author": true,
+							"author-name": "Adam Serwer",
+							"posted": "May 8, 2020 (The Atlantic)"
+						},
+						{
+							"title": "This Is What Black Burnout Feels Like",
+							"url": "https://www.buzzfeednews.com/article/tianaclarkpoet/millennial-burnout-black-women-self-care-anxiety-depression",
+							"author": true,
+							"author-name": "Tiana Clark",
+							"posted": "January 11, 2019"
+						},
+						{
+							"title": "Why The Coronavirus is Hitting Black Communities Hardest",
+							"url": "https://open.spotify.com/episode/40S8zb5hsm56virlm9SP2y?si=szHS8-HMT8-LugE6WIga-w",
+							"author": true,
+							"author-name": "Code Switch",
+							"posted": "April 11, 2020 (NPR)"
+						},
+						{
+							"title": "I'm Not Black, I'm Kanye",
+							"url": "https://www.theatlantic.com/entertainment/archive/2018/05/im-not-black-im-kanye/559763/",
+							"author": true,
+							"author-name": "Ta-Nehisi Coates",
+							"posted": "May 7, 2018 (The Atlantic)"
+						},
+						{
+							"title": "After Arbery shooting, black parents are rethinking 'the talk' with sons to explain white vigilantes",
+							"url": "https://www.nbcnews.com/news/nbcblk/after-arbery-shooting-black-parents-are-rethinking-talk-sons-explain-n1209601",
+							"author": true,
+							"author-name": "Curtis Bunn",
+							"posted": "May 19, 2020 (NBC News)"
+						}
+					]
+				}
+			]
+		},
+		{
 			"url": "how-to-be-an-ally",
 			"title": "How to be an ally",
 			"sections": [
@@ -21,23 +133,33 @@
 					"section-title": "How to be an ally&mdash;",
 					"block": true,
 					"block-one": [
+
+						{
+							"title": "How to Be a Good Ally To Your Black Friends",
+							"url": "https://www.fridaythings.com/recent-posts/how-to-be-an-ally-george-floyd-black-lives-matte",
+							"author": "true",
+							"author-name": "Friday Things",
+							"posted": "May 29, 2020"
+						},
+						{
+							"title": "20+ Allyship Actions for Asians to Show Up for the Black Community Right Now",
+							"url": "https://medium.com/awaken-blog/20-allyship-actions-for-asians-to-show-up-for-the-black-community-right-now-464e5689cf3e",
+							"author": "true",
+							"author-name": "Michelle Kim",
+							"posted": "May, 8 2020 (Medium)"
+						},
+						{
+							"title": "75 Things White People Can Do for Racial Justice",
+							"url": "https://medium.com/equality-includes-you/what-white-people-can-do-for-racial-justice-f2d18b0e0234",
+							"author": "true",
+							"author-name": "Corinne Schutack",
+							"posted": "August 13, 2017 (Medium)"
+						},
 						{
 							"title": "Guide to Allyship",
 							"url": "https://guidetoallyship.com/",
 							"source": "true",
 							"organization": "Am&eacutelie Lamont"
-						},
-						{
-							"title": "How to Be a Good Ally To Your Black Friends",
-							"url": "https://www.fridaythings.com/recent-posts/how-to-be-an-ally-george-floyd-black-lives-matte",
-							"source": "true",
-							"organization": "Friday Things"
-						},
-						{
-							"title": "20+ Allyship Actions for Asians to Show Up for the Black Community Right Now",
-							"url": "https://medium.com/awaken-blog/20-allyship-actions-for-asians-to-show-up-for-the-black-community-right-now-464e5689cf3e",
-							"source": "true",
-							"organization": "Michelle Kim via Medium"
 						},
 						{
 							"title": "The Guide to Becoming a Black Community Ally",
@@ -50,9 +172,99 @@
 			]
 		},
 		{
-			"url": "bail-funds",
-			"title": "Bail funds",
-
+			"url": "all-lives-matter",
+			"title": "Dismantling 'All Lives Matter and White supremacy",
+			"sections": [
+				{
+					"section-title": "Dismantling 'All Lives Matter and White supremacy&mdash;",
+					"block": true,
+					"block-one": [
+						{
+							"title": "Why You Need to Stop Saying 'All Lives Matter'",
+							"url": "https://www.harpersbazaar.com/culture/politics/a27075028/black-lives-matter-explained/",
+							"author": "true",
+							"author-name": "Rachel Elizabeth Cargle",
+							"posted": "April 16, 2019 (Harper's Bazaar)"
+						},
+						{
+							"title": "5 Racist Anti-Racism Responses 'Good' White Women Give to Viral Posts",
+							"url": "https://www.katykatikate.com/the-blog/2020/5/26/5-racist-anti-racism-responses-good-white-women-give-to-viral-posts",
+							"author": "true",
+							"author-name": "Katie Anthony",
+							"posted": "May 26, 2020"
+						},
+						{
+							"title": "How White Women's Tears Threaten Black Existence",
+							"url": "https://wearyourvoicemag.com/how-white-womens-tears-threaten-black-existence/",
+							"author": "true",
+							"author-name": "Cameron Glover",
+							"posted": "May 15, 2018 (Wear Your Voice)"
+						},
+						{
+							"title": "'Model Minority' Myth Again Used As A Racial Wedge Between Asians And Blacks",
+							"url": "https://www.npr.org/sections/codeswitch/2017/04/19/524571669/model-minority-myth-again-used-as-a-racial-wedge-between-asians-and-blacks",
+							"author": "true",
+							"author-name": "Kat Chow",
+							"posted": "April 19, 2017 (Code Switch via NPR)"
+						},
+						{
+							"title": "Dismantling White Fragility",
+							"url": "https://open.spotify.com/episode/1mR1SjFIZOoIUD2nIaDrjp?si=hY1ps_X-SbOUrp3X8Pxfng",
+							"author": "true",
+							"author-name": "The goop Podcast",
+							"posted": "January 30, 2020 (Spotify)"
+						}
+					]
+				}
+			]
+		},
+		{
+			"url": "for-parents",
+			"title": "How to raise anti-racist children",
+			"sections": [
+				{
+					"section-title": "How to raise anti-racist children&mdash;",
+					"block": true,
+					"block-one": [
+						{
+							"title": "Your Kids Aren't Too Young to Talk About Race: Resource Roundup",
+							"url": "https://www.prettygooddesign.org/blog/Blog%20Post%20Title%20One-5new4",
+							"author": "true",
+							"author-name": "Katrina Michie",
+							"posted": "(Pretty Good Design)"
+						},
+						{
+							"title": "Five Pandemic Parenting Lessons",
+							"url": "https://podcasts.apple.com/us/podcast/parenting-forward/id1403686245?i=1000474951309",
+							"author": "true",
+							"author-name": "Cindy Wang Brandt",
+							"posted": "(Apple Podcasts)"
+						},
+						{
+							"title": "Raising White Kids",
+							"url": "https://integratedschools.simplecast.com/episodes/harvey",
+							"author": "true",
+							"author-name": "Jennifer Harvey",
+							"posted": "May 21, 2020 (Integrated Schools)"
+						},
+						{
+							"title": "Teaching Your Child About Black History",
+							"url": "https://integratedschools.simplecast.com/episodes/harvey",
+							"author": "true",
+							"author-name": "KQED",
+							"posted": "February 15, 2018"
+						},
+						{
+							"title": "Coretta Scott King Book Award Winners",
+							"url": "https://www.commonsensemedia.org/lists/coretta-scott-king-book-award-winners"
+						}
+					]
+				}
+			]
+		},
+		{
+			"url": "donate",
+			"title": "Donate",
 			"sections": [
 				{
 					"section-title": "Donate to bail funds&mdash;",
@@ -232,10 +444,16 @@
 							"organization": "Peggy McIntosh at TEDxTimerlaneSchools"
 						},
 						{
+							"title": "Neil Degrasse Tyson on being Black, and Women in Science (3:32)",
+							"url": "https://www.youtube.com/watch?v=z7ihNLEDiuM",
+							"description": true,
+							"description-content": "YouTube"
+						},
+						{
 							"title": "The 'Doll Test' (2:44)",
 							"url": "https://www.youtube.com/watch?v=QRZPw-9sJtQ",
 							"source": true,
-							"organization": "Fanpage.it via YouTube"
+							"organization": "Fanpage.it | YouTube"
 						},
 						{
 							"title": "Black Feminism & the Movement for Black Lives: Barbara Smith, Reina Gossett, Charlene Carruthers (50:48)",
@@ -326,6 +544,12 @@
 							"url": "https://newjimcrow.com/",
 							"source": true,
 							"organization": "Michelle Alexander"
+						},
+						{
+							"title": "White Fragility: Why It's So Hard for White People to Talk About Racism",
+							"url": "https://robindiangelo.com/publications/",
+							"source": true,
+							"organization": "Robin DiAngelo, PhD"
 						}
 					]
 				}

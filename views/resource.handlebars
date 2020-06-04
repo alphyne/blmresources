@@ -14,7 +14,7 @@
 		<meta property="og:url" content=""/>
 		<meta property="og:description" content=""/>
 		
-		<title>idk&mdash; {{title}}</title>
+		<title>{{title}} &mdash; idk</title>
 		<link href="css/main.css" rel="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css2?family=Montaga&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;600;700&display=swap" rel="stylesheet">
@@ -58,11 +58,23 @@
 					{{#if block}}
 						<div class="resource-section">
 							{{#each block-one}}
-								<h4><a target="_blank" href="{{url}}">{{title}}</a>
+							<div class="resource-item">
+								<h4><a target="_blank" href="{{url}}">{{title}}</a></h4>
 								{{#if source}}
-									by {{{organization}}}
+									<h5>by {{{organization}}}</h5>
 								{{/if}}	
-								</h4>
+								
+								{{#if author}}
+									<h5 class="related-text">by {{author-name}} | {{posted}}</h5>
+								{{/if}}
+
+								{{#if description}}
+									<h5 class="related-text">{{description-content}}</h5>
+								{{/if}}	
+								
+							</div>
+
+
 							{{/each}}
 							
 						</div>
