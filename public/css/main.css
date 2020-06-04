@@ -610,8 +610,8 @@ body {
   .landing-background h2, .landing-background h3 {
     text-align: center; }
   .landing-background h2 {
-    font-size: 6rem;
-    margin-top: 6rem; }
+    font-size: 3rem;
+    margin-top: 9rem; }
   .landing-background h3 {
     font-weight: 600;
     font-size: 4rem;
@@ -735,7 +735,7 @@ body {
       background-color: #FCE21C;
       color: #111;
       border-radius: 5px;
-      box-shadow: 0.5rem 0.5rem 0.5rem black; }
+      box-shadow: 0 0.25rem 0.25rem 0.125rem black; }
       .button-section .button-group .button .button-label {
         font-family: "Darker Grotesque", sans-serif;
         padding: 1.5rem 1.5rem 0 0;
