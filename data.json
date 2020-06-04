@@ -42,6 +42,7 @@
 		{
 			"url": "addressing-anti-blackness-in-your-family",
 			"title": "Addressing anti-Blackness in your family",
+			"home-anchor-url": "/#button-group-1",
 			"sections": [
 				{
 					"section-title": "Addressing anti-Blackness in your family&mdash;",
@@ -81,6 +82,7 @@
 		{
 			"url": "why-black-lives-matter-is-necessary",
 			"title": "Why Black Lives Matter is necessary",
+			"home-anchor-url": "/#button-group-1",
 			"sections": [
 				{
 					"section-title": "Why Black Lives Matter is necessary&mdash;",
@@ -128,6 +130,7 @@
 		{
 			"url": "how-to-be-an-ally",
 			"title": "How to be an ally",
+			"home-anchor-url": "/#button-group-1",
 			"sections": [
 				{
 					"section-title": "How to be an ally&mdash;",
@@ -174,6 +177,7 @@
 		{
 			"url": "all-lives-matter",
 			"title": "Dismantling 'All Lives Matter and White supremacy",
+			"home-anchor-url": "/#button-group-1",
 			"sections": [
 				{
 					"section-title": "Dismantling 'All Lives Matter and White supremacy&mdash;",
@@ -221,6 +225,7 @@
 		{
 			"url": "for-parents",
 			"title": "How to raise anti-racist children",
+			"home-anchor-url": "/#button-group-1",
 			"sections": [
 				{
 					"section-title": "How to raise anti-racist children&mdash;",
@@ -265,6 +270,7 @@
 		{
 			"url": "donate",
 			"title": "Donate",
+			"home-anchor-url": "/#button-group-2",
 			"sections": [
 				{
 					"section-title": "Support protestors&mdash;",
@@ -361,9 +367,10 @@
 		{
 			"url": "petitions",
 			"title": "Petitions",
+			"home-anchor-url": "/#button-group-2",
 			"sections": [
 				{
-					"section-title": "Sign petitions&mdash;",
+					"section-title": "Petitions to sign&mdash;",
 					"block": true,
 					"block-one": [
 						{
@@ -457,6 +464,7 @@
 		{
 			"url": "videos",
 			"title": "Videos",
+			"home-anchor-url": "/#button-group-3",
 			"sections": [
 				{
 					"section-title": "Videos to watch&mdash;",
@@ -493,6 +501,7 @@
 		{
 			"url": "film-and-tv",
 			"title": "Film and TV",
+			"home-anchor-url": "/#button-group-3",
 			"sections": [
 				{
 					"section-title": "Film &amp; TV to watch&mdash;",
@@ -541,6 +550,7 @@
 		{
 			"url": "books",
 			"title": "Books",
+			"home-anchor-url": "/#button-group-3",
 			"sections": [
 				{
 					"section-title": "Books to read&mdash;",
@@ -583,6 +593,7 @@
 		{
 			"url": "music-and-podcasts",
 			"title": "Music and Podcasts",
+			"home-anchor-url": "/#button-group-3",
 			"sections": [
 				{
 					"section-title": "Music to listen to&mdash;",
@@ -637,6 +648,7 @@
 		{
 			"url": "organizations",
 			"title": "Organizations",
+			"home-anchor-url": "/#button-group-2",
 			"sections": [
 				{
 					"section-title": "Organizations to follow&mdash;",
