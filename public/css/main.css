@@ -763,6 +763,10 @@ body {
   .resource-item .related-text {
     margin-top: 0.5rem; }
 
+.disclaimer-text {
+  font-size: 0.75rem;
+  color: #cccccc; }
+
 @media (max-width: 1600px) {
   .button-section {
     padding: 0 10%; } }

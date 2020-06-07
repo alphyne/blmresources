@@ -4,11 +4,26 @@
 			"block": true,
 			"block-one": [
 				{
+					"title": "#8toAbolition",
+					"url":"https://www.8toabolition.com/",
+					"description": true,
+					"description-content": "Eight reforms we can take to build toward a society without police or prisons, where communities are equipped to provide for their safety and wellbeing."
+				},
+				{
+					"title": "Jane Elliott's 'Blue Eyes/Brown Eyes' Anti-Racism Exercise",
+					"url": "https://www.youtube.com/watch?v=ebPoSMULI5U",
+					"source": true,
+					"organization": "The Oprah Winfrey Show (1992)"
+				},
+				{
 					"title": "13th",
 					"url": "https://www.youtube.com/watch?v=krfcq5pF8u8",
 					"source": true,
-					"organization": "Ava DuVernay - YouTube or Netflix"
+					"organization": "Ava DuVernay - YouTube (Free) or Netflix",
+					"disclaimer": true,
+					"disclaimer-content": "CONTENT WARNING: Sexual violence, graphic violence"
 				}
+
 			]
 		}
 	],
@@ -471,19 +486,25 @@
 					"block": true,
 					"block-one": [
 						{
-							"title": "How Studying Privilege Systems Can Strengthen Compassion (18:26)",
+							"title": "Jane Elliott's 'Blue Eyes/Brown Eyes' Anti-Racism Exercise",
+							"url": "https://www.youtube.com/watch?v=ebPoSMULI5U",
+							"source": true,
+							"organization": "The Oprah Winfrey Show (1992)"
+						},
+						{
+							"title": "How Studying Privilege Systems Can Strengthen Compassion",
 							"url": "https://youtu.be/e-BY9UEewHw",
 							"source": true,
 							"organization": "Peggy McIntosh at TEDxTimerlaneSchools"
 						},
 						{
-							"title": "Neil Degrasse Tyson on being Black, and Women in Science (3:32)",
+							"title": "Neil Degrasse Tyson on being Black, and Women in Science",
 							"url": "https://www.youtube.com/watch?v=z7ihNLEDiuM",
 							"description": true,
 							"description-content": "YouTube"
 						},
 						{
-							"title": "The 'Doll Test' (2:44)",
+							"title": "The 'Doll Test'",
 							"url": "https://www.youtube.com/watch?v=QRZPw-9sJtQ",
 							"source": true,
 							"organization": "Fanpage.it | YouTube"
@@ -511,13 +532,15 @@
 							"title": "13th",
 							"url": "https://www.youtube.com/watch?v=krfcq5pF8u8",
 							"source": true,
-							"organization": "Ava DuVernay - YouTube or Netflix"
+							"organization": "Ava DuVernay - Youtube (Free) or Netflix",
+							"disclaimer": true,
+							"disclaimer-content": "CONTENT WARNING: Sexual violence, graphic violence"
 						},
 						{
 							"title": "Fruitvale Station",
 							"url": "https://tubitv.com/movies/524403/fruitvale_station?utm_source=google-feed&tracking=google-feed",
 							"source": true,
-							"organization": "Ryan Coogler - Free on Tubi"
+							"organization": "Ryan Coogler - Tubi (Free)"
 						},
 						{
 							"title": "I Am Not Your Negro (James Baldwin documentary)",
@@ -532,6 +555,12 @@
 							"organization": "Ava DuVernay - Available to rent"
 						},
 						{
+							"title": "The Black Power Mixtabpe 1967-1975",
+							"url": "https://www.amazon.com/Black-Power-Mixtape-Erykah-Badu/dp/B006LG7EEW",
+							"source": true,
+							"organization": "G&ouml;ran Olsson - Amazon (Free)"
+						},
+						{
 							"title": "When They See Us",
 							"url": "https://www.netflix.com/title/80200549",
 							"source": true,
@@ -542,6 +571,12 @@
 							"url": "https://www.netflix.com/title/80025601",
 							"source": true,
 							"organization": "Netflix Originals"
+						}, 
+						{
+							"title": "Just Mercy",
+							"url": "https://www.amazon.com/Just-Mercy-Michael-B-Jordan/dp/B082YJ8THX",
+							"source": true,
+							"organization": "Destin Daniel Cretton - Amazon (Free)"
 						}
 					]
 				}

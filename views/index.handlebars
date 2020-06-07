@@ -20,6 +20,16 @@
 		<link rel="stylesheet" href="fonts/stylesheet.css" type="text/css" charset="utf-8" />
 
 		<!--<script src="jquery-1.11.0.js"></script>-->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168793888-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-168793888-1');
+		</script>
+
 
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
@@ -30,7 +40,7 @@
 
 		<div class="landing-container">
 			<div class="landing-background">
-				<h1>BE ON THE RIGHT SIDE OF CHANGE</h1>
+				<h1>DO THE RIGHT THING. STAND UP TO RACISM.</h1>
 				<h2>
 					&mdash;resources on&mdash;
 				</h2>
@@ -173,19 +183,24 @@
 				<div class="resource-grid">
 					<div class="resource-section">
 						<h2>Where to get started&mdash;</h2>
-						<h3>(We need to add more stuff here, and are open to suggested 'first/most important things to see')</h3>
 					</div>
 					{{#each recommended}}
-					<div class="resource-section">
+					
 						{{#each block-one}}
-							<h4><a target="_blank" href="{{url}}">{{title}}</a>
-							{{#if source}}
-								by {{{organization}}}
-							{{/if}}	
-							</h4>
+							<div class="resource-section">
+							<h4><a target="_blank" href="{{url}}">{{title}}</a></h4>
+								{{#if source}}
+									<h5>by {{{organization}}}</h5>
+								{{/if}}	
+								{{#if description}}
+									<h5 class="related-text">{{description-content}}</h5>
+								{{/if}}	
+								{{#if disclaimer}}
+									<p class="disclaimer-text">{{disclaimer-content}}</p>
+								{{/if}}	
+							</div>
 						{{/each}}
 						
-					</div>
 					{{/each}}
 				</div>
 						
