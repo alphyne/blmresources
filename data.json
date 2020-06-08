@@ -608,10 +608,26 @@
 			]
 		},
 		{
-			"url": "books",
-			"title": "Books",
+			"url": "books-and-podcasts",
+			"title": "Books and Podcasts",
 			"home-anchor-url": "/#button-group-3",
 			"sections": [
+				{
+					"section-title": "Podcasts to listen to&mdash;",
+					"block": true,
+					"block-one": [
+						{
+							"title": "About Race",
+							"url": "https://www.showaboutrace.com/"
+						},
+						{
+							"title": "Code Switch",
+							"url": "https://www.npr.org/sections/codeswitch/",
+							"source": true,
+							"organization": "NPR"
+						}
+					]
+				},
 				{
 					"section-title": "Books to read&mdash;",
 					"block": true,
@@ -656,7 +672,7 @@
 			"home-anchor-url": "/#button-group-3",
 			"sections": [
 				{
-					"section-title": "Culture and Excellence&mdash;",
+					"section-title": "Culture&mdash;",
 					"block": true,
 					"block-one": [
 						{
@@ -668,22 +684,28 @@
 					]
 				},
 				{
-					"section-title": "Hip-hop, Jazz, and Electronic Music&mdash;",
+					"section-title": "Music&mdash;",
 					"block": true,
 					"block-one": [
-						{
-							"title": "DAMN.",
-							"url": "https://www.pulitzer.org/winners/kendrick-lamar",
-							"author-name": "Kendrick Lamar",
-							"author": true,
-							"posted": "April 14, 2017"
-						},
 						{
 							"title": "Satin Doll",
 							"url": "https://www.youtube.com/watch?v=wTFPV1pk654",
 							"author-name": "Duke Ellington",
 							"author": true,
 							"posted": "1964"
+						},
+						{
+							"title": "History of Hip Hop in the Bronx - Arts in the City",
+							"url": "https://www.youtube.com/watch?v=D5ZpQ73R_z4",
+							"source": true,
+							"organization": "CUNY TV (YouTube)"
+						},
+						{
+							"title": "DAMN.",
+							"url": "https://www.pulitzer.org/winners/kendrick-lamar",
+							"author-name": "Kendrick Lamar",
+							"author": true,
+							"posted": "April 14, 2017"
 						},
 						{
 							"title": "A Brief History of House Music",
@@ -722,26 +744,11 @@
 		},
 		{
 			"url": "podcasts",
-			"title": "MPodcasts",
+			"title": "Podcasts",
 			"home-anchor-url": "/#button-group-3",
 			"sections": [
 
-				{
-					"section-title": "Podcasts to listen to&mdash;",
-					"block": true,
-					"block-one": [
-						{
-							"title": "About Race",
-							"url": "https://www.showaboutrace.com/"
-						},
-						{
-							"title": "Code Switch",
-							"url": "https://www.npr.org/sections/codeswitch/",
-							"source": true,
-							"organization": "NPR"
-						}
-					]
-				}
+
 			]
 		},
 		{
