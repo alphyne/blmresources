@@ -651,12 +651,24 @@
 			]
 		},
 		{
-			"url": "music-and-podcasts",
-			"title": "Music and Podcasts",
+			"url": "culture-and-excellence",
+			"title": "Culture and Excellence",
 			"home-anchor-url": "/#button-group-3",
 			"sections": [
 				{
-					"section-title": "Music to listen to&mdash;",
+					"section-title": "Culture and Excellence&mdash;",
+					"block": true,
+					"block-one": [
+						{
+							"title": "Black Cultures in the US",
+							"url": "https://artsandculture.google.com/project/black-history-and-culture",
+							"source": true,
+							"organization": "Google Arts and Culture"
+						}
+					]
+				},
+				{
+					"section-title": "Hip-hop, Jazz, and Electronic Music&mdash;",
 					"block": true,
 					"block-one": [
 						{
@@ -686,7 +698,34 @@
 							"organization": "Vox (YouTube)"
 						}
 					]
-				},
+				}
+			]
+		},
+		{
+			"url": "pride",
+			"title": "LGBTQ+ Pride",
+			"home-anchor-url": "/#button-group-3",
+			"sections": [
+				{
+					"section-title": "LGBTQ+Pride&mdash;",
+					"block": true,
+					"block-one": [
+						{
+							"title": "Black Cultures in the US",
+							"url": "https://artsandculture.google.com/project/black-history-and-culture",
+							"source": true,
+							"organization": "Google Arts and Culture"
+						}
+					]
+				}
+			]
+		},
+		{
+			"url": "podcasts",
+			"title": "MPodcasts",
+			"home-anchor-url": "/#button-group-3",
+			"sections": [
+
 				{
 					"section-title": "Podcasts to listen to&mdash;",
 					"block": true,
