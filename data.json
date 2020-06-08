@@ -547,6 +547,12 @@
 							"organization": "The Oprah Winfrey Show (1992)"
 						},
 						{
+							"title": "The breathtaking courage of Harriet Tubman",
+							"url": "https://www.youtube.com/watch?v=Dv7YhVKFqbQ",
+							"source": true,
+							"organization": "Janell Hobson (TED-Ed)"
+						},
+						{
 							"title": "Neil Degrasse Tyson on being Black, and Women in Science",
 							"url": "https://www.youtube.com/watch?v=z7ihNLEDiuM",
 							"description": true,
@@ -658,6 +664,12 @@
 					"section-title": "Books to read&mdash;",
 					"block": true,
 					"block-one": [
+						{
+							"title": "Are Prisons Obsolete?",
+							"url": "https://www.feministes-radicales.org/wp-content/uploads/2010/11/Angela-Davis-Are_Prisons_Obsolete.pdf",
+							"source": true,
+							"organization": "Angela Davis"
+						},
 						{
 							"title": "I Know Why the Caged Bird Sings",
 							"url": "https://www.penguinrandomhouse.com/books/3924/i-know-why-the-caged-bird-sings-by-maya-angelou/",
