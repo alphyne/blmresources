@@ -757,6 +757,10 @@ body {
     .button-section .button-group .button:hover {
       transform: scale(0.9925); }
 
+.section-disclaimer {
+  margin-bottom: 2rem;
+  padding-right: 4rem; }
+
 .landing-section {
   margin: 8rem 0; }
 

@@ -38,12 +38,14 @@
 					"source": true,
 					"organization": "Ava DuVernay - YouTube (Free) or Netflix",
 					"disclaimer": true,
-					"disclaimer-content": "CONTENT WARNING: Sexual violence, graphic violence"
+					"disclaimer-content": "CONTENT WARNING: Sexual violence, graphic violence, hate crimes, racial slurs"
 				}
 			]
 		},
 		{
 			"section-title": "PETITION&mdash;",
+			"disclaimer": true,
+			"disclaimer-content": "(*NOTE: We encourage you to donate directly to freedom funds rather than through Change.org)",
 			"block-one": [
 				{
 					"title": "#8toAbolition",
@@ -53,9 +55,7 @@
 				},
 				{
 					"title": "Justice For Breonna Taylor",
-					"url":"https://www.change.org/p/andy-beshear-justice-for-breonna-taylor?source_location=discover_feed",
-					"disclaimer": true,
-					"disclaimer-content": "NOTE: We encourage you to donate directly to freedom funds rather than through Change.org"
+					"url":"https://www.change.org/p/andy-beshear-justice-for-breonna-taylor?source_location=discover_feed"
 				},
 				{
 					"title": "I want Sandra Bland's case reopened",
@@ -455,6 +455,8 @@
 			"sections": [
 				{
 					"section-title": "Petitions to sign&mdash;",
+					"disclaimer": true,
+					"disclaimer-content": "(*NOTE: We encourage you to donate directly to freedom funds rather than through Change.org)",
 					"block": true,
 					"block-one": [
 						{
@@ -639,7 +641,7 @@
 							"source": true,
 							"organization": "Ava DuVernay - Youtube (Free) or Netflix",
 							"disclaimer": true,
-							"disclaimer-content": "CONTENT WARNING: Sexual violence, graphic violence"
+							"disclaimer-content": "CONTENT WARNING: Sexual violence, graphic violence, hate crimes, racial slurs"
 						},
 						{
 							"title": "Fruitvale Station",
