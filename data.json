@@ -4,10 +4,16 @@
 			"section-title": "READ&mdash;",
 			"block-one": [
 				{
-					"title": "#8toAbolition",
-					"url":"https://www.8toabolition.com/",
-					"description": true,
-					"description-content": "Eight steps we can take to build toward a society without police or prisons, where communities are equipped to provide for their safety and wellbeing."
+					"title": "Guide to Allyship",
+					"url": "https://guidetoallyship.com/",
+					"source": "true",
+					"organization": "Am&eacutelie Lamont"
+				},
+				{
+					"title": "I Am A Person Committed to Equity - Talking About Race",
+					"url": "https://nmaahc.si.edu/learn/talking-about-race/audiences/committed-equity",
+					"source": "true",
+					"organization": "National Museum of African American History and Culture"	
 				}
 			]
 		},
@@ -33,6 +39,12 @@
 		{
 			"section-title": "TAKE ACTION&mdash;",
 			"block-one": [
+				{
+					"title": "#8toAbolition",
+					"url":"https://www.8toabolition.com/",
+					"description": true,
+					"description-content": "Eight steps we can take to build toward a society without police or prisons, where communities are equipped to provide for their safety and wellbeing."
+				},
 				{
 					"title": "temporary item -> I will be adding resources on open cases so people can direct attention towards them first as an entry point"
 				}
@@ -499,16 +511,16 @@
 					"block": true,
 					"block-one": [
 						{
+							"title": "The Dangers of Whitewashing Black History",
+							"url": "https://youtu.be/bb04xj7LS34",
+							"source": true,
+							"organization": "David Ikard at TEDxNashville"
+						},
+						{
 							"title": "Jane Elliott's 'Blue Eyes/Brown Eyes' Anti-Racism Exercise",
 							"url": "https://www.youtube.com/watch?v=ebPoSMULI5U",
 							"source": true,
 							"organization": "The Oprah Winfrey Show (1992)"
-						},
-						{
-							"title": "How Studying Privilege Systems Can Strengthen Compassion",
-							"url": "https://youtu.be/e-BY9UEewHw",
-							"source": true,
-							"organization": "Peggy McIntosh at TEDxTimerlaneSchools"
 						},
 						{
 							"title": "Neil Degrasse Tyson on being Black, and Women in Science",
