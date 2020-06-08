@@ -1,14 +1,19 @@
 {
 	"recommended": [
 		{
-			"block": true,
+			"section-title": "READ&mdash;",
 			"block-one": [
 				{
 					"title": "#8toAbolition",
 					"url":"https://www.8toabolition.com/",
 					"description": true,
-					"description-content": "Eight reforms we can take to build toward a society without police or prisons, where communities are equipped to provide for their safety and wellbeing."
-				},
+					"description-content": "Eight steps we can take to build toward a society without police or prisons, where communities are equipped to provide for their safety and wellbeing."
+				}
+			]
+		},
+		{
+			"section-title": "WATCH&mdash;",
+			"block-one": [
 				{
 					"title": "Jane Elliott's 'Blue Eyes/Brown Eyes' Anti-Racism Exercise",
 					"url": "https://www.youtube.com/watch?v=ebPoSMULI5U",
@@ -23,9 +28,17 @@
 					"disclaimer": true,
 					"disclaimer-content": "CONTENT WARNING: Sexual violence, graphic violence"
 				}
-
+			]
+		},
+		{
+			"section-title": "TAKE ACTION&mdash;",
+			"block-one": [
+				{
+					"title": "temporary item -> I will be adding resources on open cases so people can direct attention towards them first as an entry point"
+				}
 			]
 		}
+		
 	],
 	"resources": [
 		{

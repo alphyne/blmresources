@@ -101,6 +101,7 @@
         width: 50%;
         //height: 3rem;
         //margin-right: 1rem;
+        margin-bottom: 4rem;
 
         h4 {
             margin-right: 2rem;
@@ -261,6 +262,11 @@
 .disclaimer-text {
     font-size: 0.75rem;
     color: #cccccc;
+    line-height: 1.5rem !important;
+}
+
+.section-title {
+    font-weight: 600 !important;
 }
 
 

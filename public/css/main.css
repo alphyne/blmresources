@@ -659,7 +659,8 @@ body {
   flex-direction: row;
   flex-wrap: wrap; }
   .resource-grid .resource-section {
-    width: 50%; }
+    width: 50%;
+    margin-bottom: 4rem; }
     .resource-grid .resource-section h4 {
       margin-right: 2rem; }
 
@@ -765,7 +766,11 @@ body {
 
 .disclaimer-text {
   font-size: 0.75rem;
-  color: #cccccc; }
+  color: #cccccc;
+  line-height: 1.5rem !important; }
+
+.section-title {
+  font-weight: 600 !important; }
 
 @media (max-width: 1600px) {
   .button-section {
