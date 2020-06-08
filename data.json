@@ -21,6 +21,12 @@
 			"section-title": "WATCH&mdash;",
 			"block-one": [
 				{
+					"title": "How American Slavery Helped Create Modern Day Policing",
+					"url": "https://www.youtube.com/watch?v=6qtz5WPd86o",
+					"source": true,
+					"organization": "Unpack That | YouTube"
+				},
+				{
 					"title": "Jane Elliott's 'Blue Eyes/Brown Eyes' Anti-Racism Exercise",
 					"url": "https://www.youtube.com/watch?v=ebPoSMULI5U",
 					"source": true,
@@ -82,7 +88,7 @@
 		{
 			"url": "discussing-anti-blackness-with-your-family",
 			"title": "How to talk about anti-Blackness with your family",
-			"home-anchor-url": "/#button-group-1",
+			"home-anchor-url": "/#anti-racism-resources",
 			"sections": [
 				{
 					"section-title": "How to talk about anti-Blackness with your family&mdash;",
@@ -122,12 +128,24 @@
 		{
 			"url": "why-black-lives-matter-is-necessary",
 			"title": "Why Black Lives Matter is necessary",
-			"home-anchor-url": "/#button-group-1",
+			"home-anchor-url": "/#anti-racism-resources",
 			"sections": [
 				{
 					"section-title": "Why Black Lives Matter is necessary&mdash;",
 					"block": true,
 					"block-one": [
+						{
+							"title": "How America's Just System is Rigged Against the Poor",
+							"url": "https://www.youtube.com/watch?v=Ry5jTjBhZpA",
+							"source": true,
+							"organization": "Vox | YouTube"
+						},
+						{
+							"title": "Mass Incarceration, Visualized",
+							"url": "https://www.youtube.com/watch?v=u51_pzax4M0",
+							"source": true,
+							"organization": "The Atlantic | YouTube"
+						},
 						{
 							"title": "The Coronavirus Was an Emergency Until Trump Found Out Who Was Dying",
 							"url": "https://www.theatlantic.com/ideas/archive/2020/05/americas-racial-contract-showing/611389/",
@@ -170,7 +188,7 @@
 		{
 			"url": "how-to-be-an-ally",
 			"title": "How to be an ally",
-			"home-anchor-url": "/#button-group-1",
+			"home-anchor-url": "/#anti-racism-resources",
 			"sections": [
 				{
 					"section-title": "How to be an ally&mdash;",
@@ -217,7 +235,7 @@
 		{
 			"url": "all-lives-matter",
 			"title": "Dismantling 'All Lives Matter and White supremacy",
-			"home-anchor-url": "/#button-group-1",
+			"home-anchor-url": "/#anti-racism-resources",
 			"sections": [
 				{
 					"section-title": "Dismantling 'All Lives Matter and White supremacy&mdash;",
@@ -265,7 +283,7 @@
 		{
 			"url": "for-parents",
 			"title": "How to raise anti-racist children",
-			"home-anchor-url": "/#button-group-1",
+			"home-anchor-url": "/#anti-racism-resources",
 			"sections": [
 				{
 					"section-title": "How to raise anti-racist children&mdash;",
@@ -310,7 +328,7 @@
 		{
 			"url": "donate",
 			"title": "Donate",
-			"home-anchor-url": "/#button-group-2",
+			"home-anchor-url": "/#how-you-can-help",
 			"sections": [
 				{
 					"section-title": "Support protestors&mdash;",
@@ -407,7 +425,7 @@
 		{
 			"url": "petitions",
 			"title": "Petitions",
-			"home-anchor-url": "/#button-group-2",
+			"home-anchor-url": "/#how-you-can-help",
 			"sections": [
 				{
 					"section-title": "Petitions to sign&mdash;",
@@ -504,12 +522,18 @@
 		{
 			"url": "videos",
 			"title": "Videos",
-			"home-anchor-url": "/#button-group-3",
+			"home-anchor-url": "/#learn-more",
 			"sections": [
 				{
 					"section-title": "Videos to watch&mdash;",
 					"block": true,
 					"block-one": [
+						{
+							"title": "How American Slavery Helped Create Modern Day Policing",
+							"url": "https://www.youtube.com/watch?v=6qtz5WPd86o",
+							"source": true,
+							"organization": "Unpack That | YouTube"
+						},
 						{
 							"title": "The Dangers of Whitewashing Black History",
 							"url": "https://youtu.be/bb04xj7LS34",
@@ -547,7 +571,7 @@
 		{
 			"url": "film-and-tv",
 			"title": "Film and TV",
-			"home-anchor-url": "/#button-group-3",
+			"home-anchor-url": "/#learn-more",
 			"sections": [
 				{
 					"section-title": "Film &amp; TV to watch&mdash;",
@@ -610,7 +634,7 @@
 		{
 			"url": "books-and-podcasts",
 			"title": "Books and Podcasts",
-			"home-anchor-url": "/#button-group-3",
+			"home-anchor-url": "/#learn-more",
 			"sections": [
 				{
 					"section-title": "Podcasts to listen to&mdash;",
@@ -618,7 +642,9 @@
 					"block-one": [
 						{
 							"title": "About Race",
-							"url": "https://www.showaboutrace.com/"
+							"url": "https://www.showaboutrace.com/",
+							"source": true,
+							"organization": "Our National Conversation About Conversations About Race"
 						},
 						{
 							"title": "Code Switch",
@@ -669,7 +695,7 @@
 		{
 			"url": "culture",
 			"title": "Culture",
-			"home-anchor-url": "/#button-group-3",
+			"home-anchor-url": "/#learn-more",
 			"sections": [
 				{
 					"section-title": "Culture&mdash;",
@@ -726,35 +752,57 @@
 		{
 			"url": "pride",
 			"title": "LGBTQ+ Pride",
-			"home-anchor-url": "/#button-group-3",
+			"home-anchor-url": "/#learn-more",
 			"sections": [
 				{
-					"section-title": "LGBTQ+Pride&mdash;",
+					"section-title": "LGBTQ+ Pride&mdash;",
 					"block": true,
 					"block-one": [
+
 						{
-							"title": "Black Cultures in the US",
-							"url": "https://artsandculture.google.com/project/black-history-and-culture",
+							"title": "The Gay Civil Rights Activist Nearly Erased From History",
+							"url": "https://www.youtube.com/watch?v=rD-ItELhG88",
 							"source": true,
-							"organization": "Google Arts and Culture"
+							"organization": "Great Big Story (YouTube)"	
+						},
+						{
+							"title": "A little bit about BLACK LGBT History",
+							"url": "https://www.youtube.com/watch?v=EVgPQuPdZ-A",
+							"source": true,
+							"organization": "HopeDisguised (YouTube)"	
+						},
+						{
+							"title": "From the Vault: Sylvia Rivera & Marsha P. Johnson, 1970",
+							"url": "https://makinggayhistory.com/podcast/bonus-episode-from-the-vault-sylvia-rivera-marsha-p-johnson-1970/",
+							"source": "true",
+							"organization": "Making Gay History Podcast"	
+						},
+						{
+							"title": "Stonewall Forever - A Documentary about the Past, Present and Future of Pride",
+							"url": "https://www.youtube.com/watch?v=GjRv7dJTync",
+							"source": true,
+							"organization": "LGBTCenterNYC"
+						},
+						{
+							"title": "What Black and LGBTQ People Should Remember After the Jussie Smollett Attack",
+							"url": "https://www.youtube.com/watch?v=J4otHivgAxA",
+							"source": true,
+							"organization": "Now This (YouTube)"	
+						},
+						{
+							"title": "Five Trailblazers You Should Know: Pride Edition",
+							"url": "https://nmaahc.si.edu/blog-post/five-trailblazers-you-should-know-pride-edition",
+							"source": true,
+							"organization": "National Museum of African American History and Culture"	
 						}
 					]
 				}
 			]
 		},
 		{
-			"url": "podcasts",
-			"title": "Podcasts",
-			"home-anchor-url": "/#button-group-3",
-			"sections": [
-
-
-			]
-		},
-		{
 			"url": "organizations",
 			"title": "Organizations",
-			"home-anchor-url": "/#button-group-2",
+			"home-anchor-url": "/#how-you-can-help",
 			"sections": [
 				{
 					"section-title": "Organizations to follow&mdash;",

@@ -605,7 +605,8 @@ body {
     font-family: "Darker Grotesque", sans-serif;
     font-weight: 600;
     font-size: 8rem;
-    text-align: right; }
+    text-align: right;
+    margin-left: 25%; }
   .landing-background h2, .landing-background h3 {
     text-align: center; }
   .landing-background h2 {
@@ -833,6 +834,8 @@ body {
       margin-top: 4rem; }
     .landing-background h3 {
       font-size: 2rem; }
+  .landing-background h1 {
+    margin-left: 0; }
   .arrow-container {
     margin-top: 2rem; }
   .button-section {
