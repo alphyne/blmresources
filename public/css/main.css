@@ -628,6 +628,10 @@ body {
       font-size: 2rem;
       line-height: 3rem;
       margin-bottom: 1rem; }
+    .quote-container .quote h2 {
+      font-size: 1.5rem;
+      line-height: 2.25rem;
+      margin-bottom: 1rem; }
   .quote-container .quote-source {
     right: 0;
     text-align: right; }
