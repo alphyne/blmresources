@@ -43,7 +43,7 @@
 			]
 		},
 		{
-			"section-title": "TAKE ACTION&mdash;",
+			"section-title": "PETITION&mdash;",
 			"block-one": [
 				{
 					"title": "#8toAbolition",
@@ -52,8 +52,28 @@
 					"description-content": "Eight steps we can take to build toward a society without police or prisons, where communities are equipped to provide for their safety and wellbeing."
 				},
 				{
-					"title": "temporary item -> I will be adding resources on open cases so people can direct attention towards them first as an entry point"
+					"title": "Justice For Breonna Taylor",
+					"url":"https://www.change.org/p/andy-beshear-justice-for-breonna-taylor?source_location=discover_feed",
+					"disclaimer": true,
+					"disclaimer-content": "NOTE: We encourage you to donate directly to freedom funds rather than through Change.org"
+				},
+				{
+					"title": "I want Sandra Bland's case reopened",
+					"url":"https://www.change.org/p/texas-governor-i-want-sandra-bland-s-case-reopened"
+				},
+				{
+					"title": "Justice for Ahmaud Arbery! I Run with Maud!",
+					"url":"https://www.change.org/p/district-attorney-tom-durden-justice-for-ahmaud-arbery-i-run-with-maud?source_location=discover_feed"
+				},
+				{
+					"title": "Justice for Tamir Rice",
+					"url":"https://www.change.org/p/department-of-justice-investigate-the-killing-of-tamir-rice"
+				},
+				{
+					"title": "List of petitions that need to meet their goals",
+					"url": "https://pendingpetition.carrd.co/"
 				}
+
 			]
 		}
 		
@@ -134,6 +154,12 @@
 					"section-title": "Why Black Lives Matter is necessary&mdash;",
 					"block": true,
 					"block-one": [
+						{
+							"title": "Let's get to the root of racial injustice",
+							"url": "https://www.youtube.com/watch?v=-aCn72iXO9s",
+							"source": true,
+							"organization": "Megan Ming Francis @TEDxRainier"
+						},
 						{
 							"title": "How America's Just System is Rigged Against the Poor",
 							"url": "https://www.youtube.com/watch?v=Ry5jTjBhZpA",
@@ -432,20 +458,24 @@
 					"block": true,
 					"block-one": [
 						{
-							"title": "Justice For Breonna",
-							"url": "https://action.justiceforbreonna.org/sign/BreonnaWasEssential/"
+							"title": "#8toAbolition",
+							"url":"https://www.8toabolition.com/",
+							"description": true,
+							"description-content": "Eight steps we can take to build toward a society without police or prisons, where communities are equipped to provide for their safety and wellbeing."
 						},
 						{
-							"title": "#DefundThePolice",
-							"url": "https://blacklivesmatter.com/defundthepolice/",
-							"source": true,
-							"organization": "Black Lives Matter"
+							"title": "Reopen the investigation of LaVena Johnson's death",
+							"url":"https://www.change.org/p/united-states-army-reopen-the-case-of-lavena-johnson",
+							"disclaimer": true,
+							"disclaimer-content": "CONTENT WARNING: This petition mentions sexual violence and torture."
 						},
 						{
-							"title": "Tell Minneapolis City Council to Defund the Police",
-							"url": "https://www.reclaimtheblock.org/home/#about",
-							"source": true,
-							"organization": "Reclaim the Block"
+							"title": "Tell Congress you support making lynching a federal hate crime",
+							"url":"https://www.change.org/p/hate-crimes-are-on-the-rise-across-the-u-s-tell-congress-you-support-making-lynching-a-federal-hate-crime"
+						},
+						{
+							"title": "Justice for Jennifer Jeffley",
+							"url":"https://www.change.org/p/gregg-abbott-justice-for-jennifer-jeffley"
 						},
 						{
 							"title": "Megathread of Petitions (1)",
@@ -464,6 +494,26 @@
 							"url": "https://twitter.com/theIoveproject/status/1266426440913846272",
 							"description": true,
 							"description-content": "via Twitter"
+						},
+						{
+							"title": "More petitions that need to meet their goals",
+							"url": "https://pendingpetition.carrd.co/"
+						},
+						{
+							"title": "Justice For Breonna",
+							"url": "https://action.justiceforbreonna.org/sign/BreonnaWasEssential/"
+						},
+						{
+							"title": "#DefundThePolice",
+							"url": "https://blacklivesmatter.com/defundthepolice/",
+							"source": true,
+							"organization": "Black Lives Matter"
+						},
+						{
+							"title": "Tell Minneapolis City Council to Defund the Police",
+							"url": "https://www.reclaimtheblock.org/home/#about",
+							"source": true,
+							"organization": "Reclaim the Block"
 						}
 					]
 				}
