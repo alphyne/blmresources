@@ -54,11 +54,11 @@
 					"description-content": "Eight steps we can take to build toward a society without police or prisons, where communities are equipped to provide for their safety and wellbeing."
 				},
 				{
-					"title": "Justice For Breonna Taylor",
+					"title": "Justice for Breonna Taylor",
 					"url":"https://www.change.org/p/andy-beshear-justice-for-breonna-taylor?source_location=discover_feed"
 				},
 				{
-					"title": "I want Sandra Bland",
+					"title": "Justice for Sandra Bland",
 					"url":"https://www.change.org/p/texas-governor-i-want-sandra-bland-s-case-reopened"
 				},
 				{
@@ -70,9 +70,10 @@
 					"url":"https://www.change.org/p/department-of-justice-investigate-the-killing-of-tamir-rice"
 				},
 				{
-					"title": "List of petitions that need to meet their goals",
-					"url": "https://pendingpetition.carrd.co/"
+					"title": "View more petitions",
+					"url": "/petitions"
 				}
+
 
 			]
 		}
@@ -460,10 +461,8 @@
 					"block": true,
 					"block-one": [
 						{
-							"title": "#8toAbolition",
-							"url":"https://www.8toabolition.com/",
-							"description": true,
-							"description-content": "Eight steps we can take to build toward a society without police or prisons, where communities are equipped to provide for their safety and wellbeing."
+							"title": "More petitions that have yet to meet their goals",
+							"url": "https://pendingpetition.carrd.co/"
 						},
 						{
 							"title": "Reopen the investigation of LaVena Johnson's death",
