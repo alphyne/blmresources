@@ -5,9 +5,7 @@ var handlebars = require('express-handlebars')
 
 // Routes
 var index = require('./routes/index');
-var about = require('./routes/about');
 var resources = require('./routes/resources');
-var landing = require('./routes/landing');
 
 var app = express();
 
@@ -27,7 +25,6 @@ app.use(app.router);*/
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', index.view);
-app.get('/about', about.view);
 app.get('/:title', resources.view);
 
 http.createServer(app).listen(app.get('port'), function(){
