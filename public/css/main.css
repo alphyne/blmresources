@@ -591,7 +591,9 @@ body {
 
 @media (max-width: 1600px) {
   .button-section {
-    padding: 0 10%; } }
+    padding: 0 10%; }
+  .landing-background {
+    height: 140vh; } }
 
 @media (max-width: 1280px) {
   .button-section .button-group .button .button-label h3 {
