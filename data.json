@@ -1,7 +1,7 @@
 {
 	"recommended": [
 		{
-			"section-title": "READ&mdash;",
+			"section-title": "Read&mdash;",
 			"block-one": [
 				{
 					"title": "Guide to Allyship",
@@ -18,7 +18,7 @@
 			]
 		},
 		{
-			"section-title": "WATCH&mdash;",
+			"section-title": "Watch&mdash;",
 			"block-one": [
 				{
 					"title": "How American Slavery Helped Create Modern Day Policing",
@@ -43,7 +43,7 @@
 			]
 		},
 		{
-			"section-title": "PETITION&mdash;",
+			"section-title": "Petition&mdash;",
 			"disclaimer": true,
 			"disclaimer-content": "(*NOTE: We encourage you to donate directly to freedom funds rather than through Change.org)",
 			"block-one": [
@@ -58,11 +58,11 @@
 					"url":"https://www.change.org/p/andy-beshear-justice-for-breonna-taylor?source_location=discover_feed"
 				},
 				{
-					"title": "I want Sandra Bland's case reopened",
+					"title": "I want Sandra Bland",
 					"url":"https://www.change.org/p/texas-governor-i-want-sandra-bland-s-case-reopened"
 				},
 				{
-					"title": "Justice for Ahmaud Arbery! I Run with Maud!",
+					"title": "Justice for Ahmaud Arbery",
 					"url":"https://www.change.org/p/district-attorney-tom-durden-justice-for-ahmaud-arbery-i-run-with-maud?source_location=discover_feed"
 				},
 				{
