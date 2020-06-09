@@ -638,6 +638,9 @@ body {
     .quote-container .quote-source h2 {
       font-size: 1.4rem; }
 
+.return-link {
+  padding-bottom: 4rem; }
+
 .mission h2 {
   font-family: 'Montaga', serif !important;
   font-size: 1.5rem !important;

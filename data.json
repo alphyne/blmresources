@@ -14,6 +14,12 @@
 					"url": "https://nmaahc.si.edu/learn/talking-about-race/audiences/committed-equity",
 					"source": "true",
 					"organization": "National Museum of African American History and Culture"	
+				},
+				{
+					"title": "#8toAbolition",
+					"url":"https://www.8toabolition.com/",
+					"description": true,
+					"description-content": "Eight steps we can take to build toward a society without police or prisons, where communities are equipped to provide for their safety and wellbeing."
 				}
 			]
 		},
@@ -47,12 +53,7 @@
 			"disclaimer": true,
 			"disclaimer-content": "(*NOTE: We encourage you to donate directly to freedom funds rather than through Change.org)",
 			"block-one": [
-				{
-					"title": "#8toAbolition",
-					"url":"https://www.8toabolition.com/",
-					"description": true,
-					"description-content": "Eight steps we can take to build toward a society without police or prisons, where communities are equipped to provide for their safety and wellbeing."
-				},
+
 				{
 					"title": "Justice for Breonna Taylor",
 					"url":"https://www.change.org/p/andy-beshear-justice-for-breonna-taylor?source_location=discover_feed"
@@ -73,8 +74,6 @@
 					"title": "View more petitions",
 					"url": "/petitions"
 				}
-
-
 			]
 		}
 		
